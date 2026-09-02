@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mtclqmf3-mu10th7fr">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.3">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Funciones lineales | S6 - Matemáticas 3p</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Programación y materiales para la materia S6 - Matemáticas 3p del Syllabus de las Escuelas Europeas. Fecha de primera creación: Julio 2026">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260619144356CT5WBX","packageTitle":"S6 - Matemáticas 3p","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/geogebra-activity/geogebra-activity.js"></script><link rel="stylesheet" href="../idevices/geogebra-activity/geogebra-activity.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mtclqmf3-mu10th7fr" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">S6 - Matemáticas 3p</a>
+</li>
+<li class="current-page-parent"> <a href="../html/tema-1---funciones-conceptos-basicos.html" class="daddy">Tema 1 - Funciones, conceptos básicos</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-definicion-y-propiedades.html" class="daddy">Funciones: definición y propiedades</a>
+<ul class="other-section">
+<li> <a href="../html/concepto-de-funcion.html" class="no-ch">Concepto de función</a>
+</li>
+<li> <a href="../html/dominio-y-recorrido.html" class="no-ch">Dominio y recorrido</a>
+</li>
+<li> <a href="../html/signos-y-cortes-con-los-ejes.html" class="no-ch">Signos y cortes con los ejes</a>
+</li>
+<li> <a href="../html/monotonia-crecimiento-decrecimiento-extremos.html" class="no-ch">Monotonía: crecimiento, decrecimiento, extremos</a>
+</li>
+<li> <a href="../html/transformacion-de-funciones.html" class="no-ch">Transformación de funciones</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/familias-de-funciones.html" class="daddy">Familias de funciones</a>
+<ul class="other-section">
+<li class="active"> <a href="../html/funciones-lineales.html" class="active no-ch">Funciones lineales</a>
+</li>
+<li> <a href="../html/funciones-cuadraticas.html" class="no-ch">Funciones cuadráticas</a>
+</li>
+<li> <a href="../html/funciones-exponenciales.html" class="no-ch">Funciones exponenciales</a>
+</li>
+<li> <a href="../html/modelo-de-proporcionalidad-inversa.html" class="no-ch">Modelo de proporcionalidad inversa</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-2---la-tasa-de-cambio-derivada.html" class="no-ch">Tema 2 - La tasa de cambio: derivada</a>
+</li>
+<li> <a href="../html/tema-3---combinatoria-y-probabilidad.html" class="no-ch">Tema 3 - Combinatoria y probabilidad</a>
+</li>
+<li> <a href="../html/tema-4---modelo-periodico.html" class="no-ch">Tema 4 - Modelo Periódico</a>
+</li>
+<li> <a href="../html/tema-5---distribuciones-discretas-bernoulli.html" class="no-ch">Tema 5 - Distribuciones discretas. Bernoulli</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul>
+</nav><main id="page-mtclqmf3-mu10th7fr" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">S6 - Matemáticas 3p</p></div>
+<div class="page-header"><h1 class="page-title">Funciones lineales</h1></div>
+</header><div id="page-content-page-mtclqmf3-mu10th7fr" class="page-content">
+<article id="block-mtcowcwu-8bo17q3yq" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_eng_objetivos.svg" alt="">
+</div>
+<h1 class="box-title">Pendiente</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787905712477-q3nrahvoj" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1787905712477-q3nrahvoj&quot;}">
+<div class="exe-text-template">
+    <!-- RECUADRO 1: LA PENDIENTE (RECUADRO ROJO) -->
+<div style="border: 2px solid #d9534f; padding: 18px 20px; border-radius: 8px; background-color: #ffffff; max-width: 980px; margin: 0 auto 20px auto; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: #0f2d3b;">
+<h3 style="color: #d9534f; text-align: center; font-weight: bold; margin-top: 0; margin-bottom: 14px; font-size: 1.25em;">Pendiente de una recta (\(m\))</h3>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 12px;">La <strong>pendiente</strong> de una recta, representada habitualmente por la letra <strong>\(m\)</strong>, mide la inclinación o el ritmo de variación de la función. Indíca cuánto cambia la variable dependiente (\(y\)) por cada unidad que aumenta la variable independiente (\(x\)).</p>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 12px;">Dados dos puntos de la recta, \(A(x_1, y_1)\) y \(B(x_2, y_2)\), la pendiente se calcula mediante el cociente entre la variación vertical y la variación horizontal:</p>
+<div style="text-align: center; font-size: 1.15em; margin: 12px 0; padding: 10px; background-color: #f8f9fa; border-radius: 4px;">\( m = \frac{\text{Variación de } y}{\text{Variación de } x} = \frac{y_2 - y_1}{x_2 - x_1} \)</div>
+<ul style="line-height: 1.6; margin-bottom: 14px; padding-left: 20px;">
+<li><b>Si \(m &gt; 0\):</b> La recta es <strong>creciente</strong> (al aumentar \(x\), aumenta \(y\)).</li>
+<li><b>Si \(m &lt; 0\):</b> La recta es <strong>decreciente</strong> (al aumentar \(x\), disminuye \(y\)).</li>
+<li><b>Si \(m = 0\):</b> La recta es <strong>horizontal</strong> (constante).</li>
+</ul>
+<!-- IMAGEN DE APOYO: PENDIENTE -->
+<div style="text-align: center; margin-top: 15px;"><svg width="280" height="150" viewbox="0 0 280 150" style="max-width: 100%; height: auto; background: #fafafa; border: 1px solid #e0e0e0; border-radius: 6px;"> <!-- Ejes --> <line x1="30" y1="130" x2="260" y2="130" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"></line> <line x1="40" y1="140" x2="40" y2="10" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"></line> <text x="260" y="145" font-size="12" fill="#555">X</text> <text x="25" y="15" font-size="12" fill="#555">Y</text> <!-- Recta --> <line x1="50" y1="110" x2="230" y2="30" stroke="#d9534f" stroke-width="3"></line> <!-- Triángulo de pendiente --> <line x1="90" y1="92" x2="190" y2="92" stroke="#0275d8" stroke-width="2" stroke-dasharray="4"></line> <line x1="190" y1="92" x2="190" y2="48" stroke="#5cb85c" stroke-width="2" stroke-dasharray="4"></line> <!-- Puntos --> <circle cx="90" cy="92" r="4" fill="#0f2d3b"></circle> <circle cx="190" cy="48" r="4" fill="#0f2d3b"></circle> <!-- Etiquetas --> <text x="120" y="110" font-size="12" fill="#0275d8" font-weight="bold">Δx (avance)</text> <text x="198" y="75" font-size="12" fill="#5cb85c" font-weight="bold">Δy (altura)</text> </svg></div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mtcoz2ij-r1gmubujv" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_eng_objetivos.svg" alt="">
+</div>
+<h1 class="box-title">Ordenada en el origen</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mtcoz2ij-kwnsfhidl" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mtcoz2ij-kwnsfhidl&quot;}">
+<div class="exe-text-template">
+    <!-- RECUADRO 2: LA ORDENADA EN EL ORIGEN (RECUADRO ROJO) -->
+<div style="border: 2px solid #d9534f; padding: 18px 20px; border-radius: 8px; background-color: #ffffff; max-width: 980px; margin: 0 auto; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: #0f2d3b;">
+<h3 style="color: #d9534f; text-align: center; font-weight: bold; margin-top: 0; margin-bottom: 14px; font-size: 1.25em;">Ordenada en el origen (\(n\))</h3>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 12px;">La <strong>ordenada en el origen</strong>, representada habitualmente por la letra <strong>\(n\)</strong>, es el valor que toma la función cuando la variable independiente es cero (\(x = 0\)).</p>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 12px;">Geométricamente, indica el punto exacto donde la recta corta al eje vertical (\(Y\)). Las coordenadas de este punto de intersección siempre son:</p>
+<div style="text-align: center; font-size: 1.15em; margin: 12px 0; padding: 10px; background-color: #f8f9fa; border-radius: 4px;">Punto de corte con el eje \(Y\):   \( (0, n) \)</div>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 12px;">En la ecuación explícita de la recta, <strong>\(y = mx + n\)</strong>, el valor de \(n\) desplaza la gráfica verticalmente:</p>
+<ul style="line-height: 1.6; margin-bottom: 14px; padding-left: 20px;">
+<li><b>Si \(n &gt; 0\):</b> La recta corta al eje \(Y\) por <strong>encima</strong> del origen.</li>
+<li><b>Si \(n &lt; 0\):</b> La recta corta al eje \(Y\) por <strong>debajo</strong> del origen.</li>
+<li><b>Si \(n = 0\):</b> La recta pasa por el <strong>origen de coordenadas</strong> \((0,0)\).</li>
+</ul>
+<!-- IMAGEN DE APOYO: ORDENADA EN EL ORIGEN -->
+<div style="text-align: center; margin-top: 15px;"><svg width="280" height="150" viewbox="0 0 280 150" style="max-width: 100%; height: auto; background: #fafafa; border: 1px solid #e0e0e0; border-radius: 6px;"> <!-- Ejes --> <line x1="30" y1="120" x2="250" y2="120" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"></line> <line x1="100" y1="140" x2="100" y2="10" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"></line> <text x="250" y="135" font-size="12" fill="#555">X</text> <text x="85" y="15" font-size="12" fill="#555">Y</text> <!-- Recta --> <line x1="40" y1="110" x2="220" y2="20" stroke="#d9534f" stroke-width="3"></line> <!-- Punto de corte (0, n) --> <circle cx="100" cy="80" r="5" fill="#d9534f"></circle> <!-- Distancia n --> <line x1="100" y1="120" x2="100" y2="80" stroke="#0275d8" stroke-width="2" stroke-dasharray="3"></line> <!-- Etiquetas --> <text x="112" y="78" font-size="13" fill="#d9534f" font-weight="bold">(0, n)</text> <text x="80" y="102" font-size="13" fill="#0275d8" font-weight="bold">n</text> </svg></div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mtcooum9-lxj0f4sjq" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_lecturafacil.svg" alt="">
+</div>
+<h1 class="box-title">Pendiente y ordenada en el origen</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787905362176-fy9q1ihg8" class="idevice_node geogebra-activity" data-idevice-path="../idevices/geogebra-activity/" data-idevice-type="geogebra-activity">
+<div class="auto-geogebra auto-geogebra-YDgSbdF9 auto-geogebra-width-675 auto-geogebra-height-417 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-idevice-1787905362176-fy9q1ihg8 auto-geogebra-weight-100"><div class="game-evaluation-ids js-hidden" data-id="idevice-1787905362176-fy9q1ihg8" data-evaluationb="false" data-evaluationid="0"></div><p><a href="https://www.geogebra.org/m/YDgSbdF9" target="_blank">https://www.geogebra.org/m/YDgSbdF9 (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/3376147,La%20recta.%20Pendiente%20y%20ordenada%20en%20el%20origen,1,Autor%EDa,1,T%EDtulo</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div><div class="auto-geogebra-messages-scorm">La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20de%20un%20paquete%20SCORM,Su%20puntuaci%F3n,Puntuaci%F3n,Peso,La%20%FAltima%20puntuaci%F3n%20guardada%20es</div></div>
+</div>
+</div>
+</article><article id="block-mtcoq7ir-ukaq5eof5" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_lecturafacil.svg" alt="">
+</div>
+<h1 class="box-title">Problemas con funciones lineales</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787905425554-w8n91cqhv" class="idevice_node geogebra-activity" data-idevice-path="../idevices/geogebra-activity/" data-idevice-type="geogebra-activity">
+<div class="auto-geogebra auto-geogebra-kJ7xK27s auto-geogebra-width-675 auto-geogebra-height-417 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-idevice-1787905425554-w8n91cqhv auto-geogebra-weight-100"><div class="game-evaluation-ids js-hidden" data-id="idevice-1787905425554-w8n91cqhv" data-evaluationb="false" data-evaluationid="0"></div><p><a href="https://www.geogebra.org/m/kJ7xK27s" target="_blank">https://www.geogebra.org/m/kJ7xK27s (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/6154890,Funciones%20lineales.%20Problemas,1,Autor%EDa,1,T%EDtulo</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div><div class="auto-geogebra-messages-scorm">La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20de%20un%20paquete%20SCORM,Su%20puntuaci%F3n,Puntuaci%F3n,Peso,La%20%FAltima%20puntuaci%F3n%20guardada%20es</div></div>
+</div>
+</div>
+</article><article id="block-mtcorbqn-elqlsgd3h" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_lecturafacil.svg" alt="">
+</div>
+<h1 class="box-title">¿Qué ecuación tiene la gráfica?</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787905477678-1t2pbp0ar" class="idevice_node geogebra-activity" data-idevice-path="../idevices/geogebra-activity/" data-idevice-type="geogebra-activity">
+<div class="auto-geogebra auto-geogebra-xaa8zkfx auto-geogebra-width-800 auto-geogebra-height-550 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-idevice-1787905477678-1t2pbp0ar auto-geogebra-weight-100"><div class="game-evaluation-ids js-hidden" data-id="idevice-1787905477678-1t2pbp0ar" data-evaluationb="false" data-evaluationid="0"></div><p><a href="https://www.geogebra.org/m/xaa8zkfx" target="_blank">https://www.geogebra.org/m/xaa8zkfx (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">D%E9bora%20Pereiro%20Carbajo,https%3A//ggbm.at/36304083,Ecuaciones%20de%20rectas%20%28II%29,1,Autor%EDa,1,T%EDtulo</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div><div class="auto-geogebra-messages-scorm">La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20de%20un%20paquete%20SCORM,Su%20puntuaci%F3n,Puntuaci%F3n,Peso,La%20%FAltima%20puntuaci%F3n%20guardada%20es</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/familias-de-funciones.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/funciones-cuadraticas.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

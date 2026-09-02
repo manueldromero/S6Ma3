@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mtclr20h-dyfvo8qjk">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.3">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Funciones exponenciales | S6 - Matemáticas 3p</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Programación y materiales para la materia S6 - Matemáticas 3p del Syllabus de las Escuelas Europeas. Fecha de primera creación: Julio 2026">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260619144356CT5WBX","packageTitle":"S6 - Matemáticas 3p","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/geogebra-activity/geogebra-activity.js"></script><link rel="stylesheet" href="../idevices/geogebra-activity/geogebra-activity.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mtclr20h-dyfvo8qjk" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">S6 - Matemáticas 3p</a>
+</li>
+<li class="current-page-parent"> <a href="../html/tema-1---funciones-conceptos-basicos.html" class="daddy">Tema 1 - Funciones, conceptos básicos</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-definicion-y-propiedades.html" class="daddy">Funciones: definición y propiedades</a>
+<ul class="other-section">
+<li> <a href="../html/concepto-de-funcion.html" class="no-ch">Concepto de función</a>
+</li>
+<li> <a href="../html/dominio-y-recorrido.html" class="no-ch">Dominio y recorrido</a>
+</li>
+<li> <a href="../html/signos-y-cortes-con-los-ejes.html" class="no-ch">Signos y cortes con los ejes</a>
+</li>
+<li> <a href="../html/monotonia-crecimiento-decrecimiento-extremos.html" class="no-ch">Monotonía: crecimiento, decrecimiento, extremos</a>
+</li>
+<li> <a href="../html/transformacion-de-funciones.html" class="no-ch">Transformación de funciones</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/familias-de-funciones.html" class="daddy">Familias de funciones</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-lineales.html" class="no-ch">Funciones lineales</a>
+</li>
+<li> <a href="../html/funciones-cuadraticas.html" class="no-ch">Funciones cuadráticas</a>
+</li>
+<li class="active"> <a href="../html/funciones-exponenciales.html" class="active no-ch">Funciones exponenciales</a>
+</li>
+<li> <a href="../html/modelo-de-proporcionalidad-inversa.html" class="no-ch">Modelo de proporcionalidad inversa</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-2---la-tasa-de-cambio-derivada.html" class="no-ch">Tema 2 - La tasa de cambio: derivada</a>
+</li>
+<li> <a href="../html/tema-3---combinatoria-y-probabilidad.html" class="no-ch">Tema 3 - Combinatoria y probabilidad</a>
+</li>
+<li> <a href="../html/tema-4---modelo-periodico.html" class="no-ch">Tema 4 - Modelo Periódico</a>
+</li>
+<li> <a href="../html/tema-5---distribuciones-discretas-bernoulli.html" class="no-ch">Tema 5 - Distribuciones discretas. Bernoulli</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul>
+</nav><main id="page-mtclr20h-dyfvo8qjk" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">S6 - Matemáticas 3p</p></div>
+<div class="page-header"><h1 class="page-title">Funciones exponenciales</h1></div>
+</header><div id="page-content-page-mtclr20h-dyfvo8qjk" class="page-content">
+<article id="block-mtgxyuch-oru7u5kvl" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_eng_objetivos.svg" alt="">
+</div>
+<h1 class="box-title">Repasa la función exponencial</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1788162809631-h0rspe4c3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1788162809631-h0rspe4c3&quot;}">
+<div class="exe-text-template">
+    <!-- RECUADRO 1: MODELO EXPONENCIAL (TEORÍA EN ROJO) -->
+<div style="border: 2px solid #d9534f; padding: 18px 20px; border-radius: 8px; background-color: #ffffff; max-width: 980px; margin: 0 auto 20px auto; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: #0f2d3b;">
+<h3 style="color: #d9534f; text-align: center; font-weight: bold; margin-top: 0; margin-bottom: 14px; font-size: 1.25em;">La Función Exponencial</h3>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 12px;">La <strong>función exponencial</strong> representa fenómenos de crecimiento o decrecimiento donde la variable independiente \(x\) se encuentra en el exponente. Su modelo general simplificado es:</p>
+<div style="text-align: center; font-size: 1.2em; margin: 12px 0; padding: 10px; background-color: #f8f9fa; border-radius: 4px; border: 1px solid #e9ecef;">\( f(x) = a \cdot B^x \)</div>
+<ul style="line-height: 1.6; margin-bottom: 14px; padding-left: 20px;">
+<li><b>\(a\) (Valor inicial):</b> Es el valor de la función cuando \(x = 0\), es decir, la ordenada al origen \((0, a)\). Debe ser \(a \neq 0\).</li>
+<li><b>\(B\) (Base / Factor de cambio):</b> Es la constante por la que se multiplica la función cada vez que \(x\) aumenta en 1 unidad (\(B &gt; 0\) y \(B \neq 1\)).</li>
+</ul>
+<!-- TABLA RESUMEN -->
+<div style="overflow-x: auto; margin-bottom: 10px;">
+<table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 0.95em; border: 1px solid #d9d9d9;">
+<thead>
+<tr style="background-color: #d9534f; color: #ffffff;">
+<th style="padding: 10px; border: 1px solid #d9534f;">Comportamiento</th>
+<th style="padding: 10px; border: 1px solid #d9534f;">Condición de la base \(B\)</th>
+<th style="padding: 10px; border: 1px solid #d9534f;">Ejemplo en Interés / Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f8f9fa;">
+<td style="padding: 10px; font-weight: bold; border: 1px solid #d9d9d9;">Crecimiento Exponencial</td>
+<td style="padding: 10px; border: 1px solid #d9d9d9;">\( B &gt; 1 \)</td>
+<td style="padding: 10px; border: 1px solid #d9d9d9;">Aumento del \(r\%\): \( B = 1 + r \)</td>
+</tr>
+<tr>
+<td style="padding: 10px; font-weight: bold; border: 1px solid #d9d9d9;">Decrecimiento Exponencial</td>
+<td style="padding: 10px; border: 1px solid #d9d9d9;">\( 0 &lt; B &lt; 1 \)</td>
+<td style="padding: 10px; border: 1px solid #d9d9d9;">Disminución del \(r\%\): \( B = 1 - r \)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 0;"><b>Propiedad clave:</b> La función nunca se anula (\(f(x) \neq 0\)) y posee una <strong>asíntota horizontal</strong> en el eje \(X\) (\(y = 0\)).</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mtgy1do4-onrgfz2jf" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="">
+</div>
+<h1 class="box-title">Practica el modelo exponencial</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1788162927987-eoquilfc5" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1788162927987-eoquilfc5&quot;}">
+<div class="exe-text-template">
+    <!-- BLOQUE 1: REPRESENTACIÓN DE FUNCIONES EXPONENCIALES -->
+<h3 style="color: #0f2d3b; font-weight: bold; margin-top: 25px; margin-bottom: 14px; font-size: 1.2em;">Representación de Funciones Exponenciales</h3>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 14px;">Para representar las siguientes funciones, identifica su <strong>valor inicial \(a\)</strong>, la <strong>base \(B\)</strong>, la <strong>asíntota horizontal</strong> y calcula una pequeña tabla de valores para \(x = \{-1, 0, 1, 2\}\).</p>
+<ol style="line-height: 1.6; padding-left: 20px; margin-bottom: 25px;"><!-- EJERCICIO 1 -->
+<li style="margin-bottom: 15px;"><strong>Crecimiento:</strong> Dada la función \(f(x) = 2 \cdot 3^x\)
+<ul style="margin-top: 5px;">
+<li><b>a)</b> Indica el punto de corte con el eje \(Y\).</li>
+<li><b>b)</b> ¿Es una función creciente o decreciente? Justifica según la base \(B\).</li>
+<li><b>c)</b> Representa gráficamente la función.</li>
+</ul>
+</li>
+<!-- EJERCICIO 2 -->
+<li style="margin-bottom: 15px;"><strong>Decrecimiento:</strong> Dada la función \(g(x) = 500 \cdot (0,8)^x\)
+<ul style="margin-top: 5px;">
+<li><b>a)</b> Obtén el valor de la función en \(x = 0\) y en \(x = 2\).</li>
+<li><b>b)</b> Determina el porcentaje de reducción que ocurre cada vez que \(x\) aumenta en 1 unidad.</li>
+<li><b>c)</b> Representa gráficamente la curva indicando su comportamiento asintótico.</li>
+</ul>
+</li>
+</ol>
+<!-- BLOQUE 2: OBTENCIÓN Y APLICACIÓN DEL MODELO EXPONENCIAL -->
+<h3 style="color: #0f2d3b; font-weight: bold; margin-top: 25px; margin-bottom: 14px; font-size: 1.2em;">Bloque 2: Obtención del Modelo a partir de Datos y Gráficas</h3>
+<p style="text-align: justify; line-height: 1.6; margin-bottom: 14px;">Utiliza el modelo \(f(x) = a \cdot B^x\) para resolver los siguientes problemas planteados:</p>
+<ol start="3" style="line-height: 1.6; padding-left: 20px; margin-bottom: 15px;"><!-- EJERCICIO 3 -->
+<li style="margin-bottom: 15px;"><strong>A partir de dos puntos de la gráfica:</strong> Una curva exponencial pasa por los puntos \(A(0, 4)\) y \(B(2, 36)\).
+<ul style="margin-top: 5px;">
+<li><b>a)</b> Utiliza el punto \(A(0, 4)\) para hallar el valor inicial \(a\).</li>
+<li><b>b)</b> Sustituye el punto \(B(2, 36)\) para calcular la base \(B\).</li>
+<li><b>c)</b> Escribe la expresión analítica completa de la función.</li>
+</ul>
+</li>
+<!-- EJERCICIO 4 -->
+<li style="margin-bottom: 15px;"><strong>Problema de Ahorros / Población:</strong> Un depósito inicial de \(600\text{ €}\) genera un interés compuesto anual del \(4\%\).
+<ul style="margin-top: 5px;">
+<li><b>a)</b> Determina el valor de la base \(B\) a partir del porcentaje de crecimiento.</li>
+<li><b>b)</b> Escribe la función exponencial \(f(x) = a \cdot B^x\) que modeliza el capital acumulado tras \(x\) años.</li>
+<li><b>c)</b> Calcula la cantidad total de dinero acumulada al cabo de \(5\) años.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</article><article id="block-mtcp3jll-9t3xdo449" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_lecturafacil.svg" alt="">
+</div>
+<h1 class="box-title">¿Qué función exponencial representa la gráfica dada?</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787906047736-m83fpjk3s" class="idevice_node geogebra-activity" data-idevice-path="../idevices/geogebra-activity/" data-idevice-type="geogebra-activity">
+<div class="auto-geogebra auto-geogebra-d9akkqx8 auto-geogebra-width-675 auto-geogebra-height-417 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-idevice-1787906047736-m83fpjk3s auto-geogebra-weight-100"><div class="game-evaluation-ids js-hidden" data-id="idevice-1787906047736-m83fpjk3s" data-evaluationb="false" data-evaluationid="0"></div><p><a href="https://www.geogebra.org/m/d9akkqx8" target="_blank">https://www.geogebra.org/m/d9akkqx8 (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">D%E9bora%20Pereiro%20Carbajo,https%3A//ggbm.at/47882653,Funci%F3n%20exponencial%20,1,Autor%EDa,1,T%EDtulo</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div><div class="auto-geogebra-messages-scorm">La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20de%20un%20paquete%20SCORM,Su%20puntuaci%F3n,Puntuaci%F3n,Peso,La%20%FAltima%20puntuaci%F3n%20guardada%20es</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/funciones-cuadraticas.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/modelo-de-proporcionalidad-inversa.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

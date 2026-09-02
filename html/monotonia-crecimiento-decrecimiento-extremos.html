@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mtclsodv-vzcjgcse9">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.3">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Monotonía: crecimiento, decrecimiento, extremos | S6 - Matemáticas 3p</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Programación y materiales para la materia S6 - Matemáticas 3p del Syllabus de las Escuelas Europeas. Fecha de primera creación: Julio 2026">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260619144356CT5WBX","packageTitle":"S6 - Matemáticas 3p","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/geogebra-activity/geogebra-activity.js"></script><link rel="stylesheet" href="../idevices/geogebra-activity/geogebra-activity.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mtclsodv-vzcjgcse9" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">S6 - Matemáticas 3p</a>
+</li>
+<li class="current-page-parent"> <a href="../html/tema-1---funciones-conceptos-basicos.html" class="daddy">Tema 1 - Funciones, conceptos básicos</a>
+<ul class="other-section">
+<li class="current-page-parent"> <a href="../html/funciones-definicion-y-propiedades.html" class="daddy">Funciones: definición y propiedades</a>
+<ul class="other-section">
+<li> <a href="../html/concepto-de-funcion.html" class="no-ch">Concepto de función</a>
+</li>
+<li> <a href="../html/dominio-y-recorrido.html" class="no-ch">Dominio y recorrido</a>
+</li>
+<li> <a href="../html/signos-y-cortes-con-los-ejes.html" class="no-ch">Signos y cortes con los ejes</a>
+</li>
+<li class="active"> <a href="../html/monotonia-crecimiento-decrecimiento-extremos.html" class="active no-ch">Monotonía: crecimiento, decrecimiento, extremos</a>
+</li>
+<li> <a href="../html/transformacion-de-funciones.html" class="no-ch">Transformación de funciones</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/familias-de-funciones.html" class="daddy">Familias de funciones</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-lineales.html" class="no-ch">Funciones lineales</a>
+</li>
+<li> <a href="../html/funciones-cuadraticas.html" class="no-ch">Funciones cuadráticas</a>
+</li>
+<li> <a href="../html/funciones-exponenciales.html" class="no-ch">Funciones exponenciales</a>
+</li>
+<li> <a href="../html/modelo-de-proporcionalidad-inversa.html" class="no-ch">Modelo de proporcionalidad inversa</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-2---la-tasa-de-cambio-derivada.html" class="no-ch">Tema 2 - La tasa de cambio: derivada</a>
+</li>
+<li> <a href="../html/tema-3---combinatoria-y-probabilidad.html" class="no-ch">Tema 3 - Combinatoria y probabilidad</a>
+</li>
+<li> <a href="../html/tema-4---modelo-periodico.html" class="no-ch">Tema 4 - Modelo Periódico</a>
+</li>
+<li> <a href="../html/tema-5---distribuciones-discretas-bernoulli.html" class="no-ch">Tema 5 - Distribuciones discretas. Bernoulli</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul>
+</nav><main id="page-mtclsodv-vzcjgcse9" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">S6 - Matemáticas 3p</p></div>
+<div class="page-header"><h1 class="page-title">Monotonía: crecimiento, decrecimiento, extremos</h1></div>
+</header><div id="page-content-page-mtclsodv-vzcjgcse9" class="page-content">
+<article id="block-mtcnlq38-lqm18palr" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_caso.svg" alt="">
+</div>
+<h1 class="box-title">Definición de función creciente en un punto</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787903536723-ooodzhaud" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1787903536723-ooodzhaud&quot;}">
+<div class="exe-text-template">
+    <div style="border: 2px solid #d9534f; padding: 15px; border-radius: 10px; background-color: #ffffff;">
+<h3 style="color: #d9534f; text-align: center; font-weight: bold;">Función creciente en un punto</h3>
+<p style="text-align: justify;">Una función \( f \) diremos que es <strong>creciente en un punto de abscisa \( a \)</strong> si existe un entorno de \( a \) tal que, para todos sus puntos \( x \), se cumple:</p>
+<p style="text-align: justify; margin-left: 20px;">– si \( x &lt; a \), entonces \( f(x) \le f(a) \)<br />– si \( x &gt; a \), entonces \( f(x) \ge f(a) \)</p>
+<p style="text-align: justify;">Podemos precisar esta definición considerando que:</p>
+<p style="text-align: justify; margin-left: 20px;">– si \( x &lt; a \), entonces \( f(x) &lt; f(a) \)<br />– si \( x &gt; a \), entonces \( f(x) &gt; f(a) \)</p>
+<p style="text-align: justify;">Diremos que \( f \) es <strong>estrictamente creciente</strong> en el punto de abscisa \( a \).</p>
+<p><img src="../content/resources/blobid0.png" width="650" height="365" alt="gráfica creciente" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mtcnt4e0-khjc3d3ps" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="">
+</div>
+<h1 class="box-title">Función decreciente en un punto</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787903881847-315glvxfo" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1787903881847-315glvxfo&quot;}">
+<div class="exe-text-template">
+    <p>Ofrece una definición similar de función decreciente en un punto.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mtcnx3a7-69jxa7w4a" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_caso.svg" alt="">
+</div>
+<h1 class="box-title">Función creciente en un intervalo</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787904067039-ktkfkks71" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1787904067039-ktkfkks71&quot;}">
+<div class="exe-text-template">
+    <div style="border: 2px solid #d9534f; padding: 15px; border-radius: 10px; background-color: #ffffff;">
+<h3 style="color: #d9534f; text-align: center; font-weight: bold;">Función creciente en un intervalo</h3>
+<p style="text-align: justify;">Una función \( f \) es <strong>creciente en un intervalo</strong> si, para cualquier par de puntos \( x_1 \) y \( x_2 \) de dicho intervalo, al aumentar el valor de la variable independiente aumenta o se mantiene la variable dependiente:</p>
+<p style="margin-left: 20px; text-align: center;">si \( x_1 &lt; x_2 \), entonces \( f(x_1) \le f(x_2) \)</p>
+<p style="text-align: justify;">Si para cada par de puntos se cumple que al aumentar el valor de \( x \) aumenta estrictamente el valor de \( f(x) \), decimos que la función es <strong>estrictamente creciente</strong> en el intervalo:</p>
+<p style="margin-left: 20px; text-align: center;">si \( x_1 &lt; x_2 \), entonces \( f(x_1) &lt; f(x_2) \)</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mtco0te7-5x1ff7rtm" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="">
+</div>
+<h1 class="box-title">Función decreciente en un intervalo</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mtco0te7-ihrb2p49u" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mtco0te7-ihrb2p49u&quot;}">
+<div class="exe-text-template">
+    <p>Ofrece una definición similar de función decreciente en un intervalo.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mtclxc79-ximgnldpr" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_lecturafacil.svg" alt="">
+</div>
+<h1 class="box-title">Practica: monotonía y continuidad</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1787900719364-jfj2nss6q" class="idevice_node geogebra-activity" data-idevice-path="../idevices/geogebra-activity/" data-idevice-type="geogebra-activity">
+<div class="auto-geogebra auto-geogebra-TJ3av9kw auto-geogebra-width-700 auto-geogebra-height-459 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-idevice-1787900719364-jfj2nss6q auto-geogebra-weight-100"><div class="game-evaluation-ids js-hidden" data-id="idevice-1787900719364-jfj2nss6q" data-evaluationb="false" data-evaluationid="0"></div><p><a href="https://www.geogebra.org/m/TJ3av9kw" target="_blank">https://www.geogebra.org/m/TJ3av9kw (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/6189494,Monoton%EDa%20y%20Continuidad,1,Autor%EDa,1,T%EDtulo</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div><div class="auto-geogebra-messages-scorm">La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20de%20un%20paquete%20SCORM,Su%20puntuaci%F3n,Puntuaci%F3n,Peso,La%20%FAltima%20puntuaci%F3n%20guardada%20es</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/signos-y-cortes-con-los-ejes.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/transformacion-de-funciones.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
