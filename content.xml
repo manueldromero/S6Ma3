@@ -56,7 +56,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>1788361315744</value>
+    <value>1790338982589</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -3727,9 +3727,847 @@ Para estudiar los signos de una función:
           <odeIdeviceId>idevice-mqov9aor-xtcum227t</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
-    <p><img src="{{context_path}}/content/resources/underconstruction.png" title="Under construction" width="600" height="250" alt="Under construction" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+    <ul>
+<li><a href="{{context_path}}/content/resources/S6Ma3 Derivada definición como lim de TVM.pdf" title="S6Ma3 Derivada definición como lim de TVM.pdf">Ficha: de la TVM a la derivada en un punto</a></li>
+</ul>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1781877806007-c9effhhx1","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><img src=\"{{context_path}}/content/resources/underconstruction.png\" title=\"Under construction\" width=\"600\" height=\"250\" alt=\"Under construction\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-mqov9aor-xtcum227t","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<ul>\n<li><a href=\"{{context_path}}/content/resources/S6Ma3 Derivada definición como lim de TVM.pdf\" title=\"S6Ma3 Derivada definición como lim de TVM.pdf\">Ficha: de la TVM a la derivada en un punto</a></li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mudunkgz-dqx8q2buv</odePageId>
+  <odeParentPageId>page-mqkx76g1-t5mddzcuo</odeParentPageId>
+  <pageName>Tasa de variación media</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Tasa de variación media</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Tasa de variación media</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mudunkgz-dqx8q2buv</odePageId>
+      <odeBlockId>block-mudv8cnj-mdtfiec1e</odeBlockId>
+      <blockName>Analizando una gráfica tiempo - distancia</blockName>
+      <iconName>udl_rep_reflexion</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mudunkgz-dqx8q2buv</odePageId>
+          <odeBlockId>block-mudv8cnj-mdtfiec1e</odeBlockId>
+          <odeIdeviceId>idevice-1790153598221-d4ywvhvog</odeIdeviceId>
+          <odeIdeviceTypeName>geogebra-activity</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="auto-geogebra auto-geogebra-efckznwu auto-geogebra-width-675 auto-geogebra-height-417 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-idevice-1790153598221-d4ywvhvog auto-geogebra-weight-100"><div class="game-evaluation-ids js-hidden" data-id="idevice-1790153598221-d4ywvhvog" data-evaluationb="false" data-evaluationid="0"></div><p><a href="https://www.geogebra.org/m/efckznwu" target="_blank">https://www.geogebra.org/m/efckznwu (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/41139238,Gr%E1ficos%20distancia%20recorrida-tiempo,1,Autor%EDa,1,T%EDtulo</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div><div class="auto-geogebra-messages-scorm">La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20de%20un%20paquete%20SCORM,Su%20puntuaci%F3n,Puntuaci%F3n,Peso,La%20%FAltima%20puntuaci%F3n%20guardada%20es</div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mudunkgz-dqx8q2buv</odePageId>
+      <odeBlockId>block-mudvjaj6-b8rpgrxov</odeBlockId>
+      <blockName>Definición de función</blockName>
+      <iconName>udl_exp_lee</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mudunkgz-dqx8q2buv</odePageId>
+          <odeBlockId>block-mudvjaj6-b8rpgrxov</odeBlockId>
+          <odeIdeviceId>idevice-mudvjaj6-w1uxe3iaw</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>
+<script type="text/javascript"> 
+  $(window).load(function(){
+    $.each([0,1,2,3,4,5], function(index , value ) {
+   $("p.toggle-idevice a").eq(value).click();
+    })
+  });
+</script>
+</p>
+<div id="teoria-box-fn1" role="region" aria-label="Bloque de teoría" style="all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;">
+<div data-tb="wrap" style="box-sizing: border-box; border: 2px solid #e11; border-radius: 2px; padding: 18px 22px; background: #fff; max-width: 980px; margin: 8px auto;"><!-- TÍTULO -->
+<div data-tb="title" style="box-sizing: border-box; font-weight: 800; font-size: 18px; line-height: 1.3; color: #0f2d3b; margin: 0 0 12px;">Tasa de Variación Media (TVM)</div>
+<!-- CUERPO -->
+<div data-tb="content" style="box-sizing: border-box; font-size: 16px; line-height: 1.5; color: #0f2d3b;">
+<div data-tb="content" style="box-sizing: border-box; font-size: 15px; line-height: 1.5; color: #111; text-align: justify;">La <b>Tasa de Variación Media (TVM)</b> de una función \( f \) en un intervalo cerrado \([x_1, x_2]\) mide la variación promedio que experimenta la función por unidad de la variable independiente entre esos dos puntos. <br /><br />Se define matemáticamente como el cociente entre el incremento de la función y el incremento de la variable independiente:</div>
+<div style="margin: 14px 0; text-align: center;">\( \displaystyle \text{TVM}[x_1, x_2] = \frac{f(x_2) - f(x_1)}{x_2 - x_1} \)</div>
+</div>
+</div>
+La tasa de variación media puede calcularse e interpretarse de varias maneras:</div>
+<div role="region" aria-label="Bloque de teoría" style="all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;">
+<div class="exe-fx exe-tabs"><!-- 1) EXPRESIÓN ALGEBRAICA -->
+<h2>Ejemplo · Expresión algebraica</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">Dada la función \( f(x) = x^2 - 2x \) en el intervalo \([1, 4]\):
+<div style="margin: 10px 0; font-size: 15px;">1. Hallamos las imágenes: \( f(1) = 1^2 - 2(1) = -1 \) y \( f(4) = 4^2 - 2(4) = 8 \).<br />2. Aplicamos la fórmula de la TVM:</div>
+<div style="text-align: center; margin: 10px 0; font-size: 17px;">\( \displaystyle \text{TVM}[1, 4] = \frac{f(4) - f(1)}{4 - 1} = \frac{8 - (-1)}{3} = \frac{9}{3} = 3 \)</div>
+</div>
+<!-- 2) TABLA -->
+<h2>Ejemplo · Tabla de valores</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">Dada la tabla de valores que relaciona el tiempo \(t\) y la distancia \(g(t)\) de un recorrido:
+<div style="overflow-x: auto; margin-top: 10px;">
+<table role="grid" aria-label="Tabla g(t)" style="border-collapse: collapse; min-width: 420px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(t\)</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(0\)</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(2\)</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(4\)</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(6\)</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(8\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">\(g(t)\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(0\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(4\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(12\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(28\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(40\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+Calculamos la TVM entre \(t_1 = 2\) y \(t_2 = 6\):
+<div style="text-align: center; margin: 10px 0; font-size: 16px;">\( \displaystyle \text{TVM}[2, 6] = \frac{g(6) - g(2)}{6 - 2} = \frac{28 - 4}{4} = \frac{24}{4} = 6 \)</div>
+</div>
+<!-- 3) GRÁFICA -->
+<h2>Ejemplo · Gráfica</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">Gráficamente, la TVM en un intervalo \([x_1, x_2]\) representa la <b>pendiente de la recta secante</b> que conecta los puntos correspondientes sobre la curva de la función.
+<div style="text-align: center; margin: 12px 0;"><span style="display: inline-block; padding: 8px 12px; background: #f8f9fa; border: 1px dashed #ccc; border-radius: 4px;">Pendiente de la recta secante = \(\displaystyle \frac{\Delta y}{\Delta x} = \text{TVM}[x_1, x_2]\)</span></div>
+</div>
+<!-- 4) EXPRESIÓN ESCRITA -->
+<h2>Ejemplo · Expresión escrita</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">“La <b>velocidad media</b> de un coche en movimiento a lo largo de una trayectoria. Si entre el minuto \(t = 2\) y el minuto \(t = 5\) se pasa de una distancia de \(3\) metros a \(27\) metros, la velocidad media es la tasa de variación media de la distancia respecto al tiempo:
+<div style="text-align: center; margin: 10px 0; font-size: 16px;">\( \displaystyle \text{TVM}[2, 5] = \frac{27 - 3}{5 - 2} = \frac{24}{3} = 8 \text{ m/min} \)</div>
+”</div>
+</div>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-mudvjaj6-w1uxe3iaw","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>\n<script type=\"text/javascript\"> \n  $(window).load(function(){\n    $.each([0,1,2,3,4,5], function(index , value ) {\n   $(\"p.toggle-idevice a\").eq(value).click();\n    })\n  });\n</script>\n</p>\n<div id=\"teoria-box-fn1\" role=\"region\" aria-label=\"Bloque de teoría\" style=\"all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;\">\n<div data-tb=\"wrap\" style=\"box-sizing: border-box; border: 2px solid #e11; border-radius: 2px; padding: 18px 22px; background: #fff; max-width: 980px; margin: 8px auto;\"><!-- TÍTULO -->\n<div data-tb=\"title\" style=\"box-sizing: border-box; font-weight: 800; font-size: 18px; line-height: 1.3; color: #0f2d3b; margin: 0 0 12px;\">Tasa de Variación Media (TVM)</div>\n<!-- CUERPO -->\n<div data-tb=\"content\" style=\"box-sizing: border-box; font-size: 16px; line-height: 1.5; color: #0f2d3b;\">\n<div data-tb=\"content\" style=\"box-sizing: border-box; font-size: 15px; line-height: 1.5; color: #111; text-align: justify;\">La <b>Tasa de Variación Media (TVM)</b> de una función \\( f \\) en un intervalo cerrado \\([x_1, x_2]\\) mide la variación promedio que experimenta la función por unidad de la variable independiente entre esos dos puntos. <br /><br />Se define matemáticamente como el cociente entre el incremento de la función y el incremento de la variable independiente:</div>\n<div style=\"margin: 14px 0; text-align: center;\">\\( \\displaystyle \\text{TVM}[x_1, x_2] = \\frac{f(x_2) - f(x_1)}{x_2 - x_1} \\)</div>\n</div>\n</div>\nLa tasa de variación media puede calcularse e interpretarse de varias maneras:</div>\n<div role=\"region\" aria-label=\"Bloque de teoría\" style=\"all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;\">\n<div class=\"exe-fx exe-tabs\"><!-- 1) EXPRESIÓN ALGEBRAICA -->\n<h2>Ejemplo · Expresión algebraica</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Dada la función \\( f(x) = x^2 - 2x \\) en el intervalo \\([1, 4]\\):\n<div style=\"margin: 10px 0; font-size: 15px;\">1. Hallamos las imágenes: \\( f(1) = 1^2 - 2(1) = -1 \\) y \\( f(4) = 4^2 - 2(4) = 8 \\).<br />2. Aplicamos la fórmula de la TVM:</div>\n<div style=\"text-align: center; margin: 10px 0; font-size: 17px;\">\\( \\displaystyle \\text{TVM}[1, 4] = \\frac{f(4) - f(1)}{4 - 1} = \\frac{8 - (-1)}{3} = \\frac{9}{3} = 3 \\)</div>\n</div>\n<!-- 2) TABLA -->\n<h2>Ejemplo · Tabla de valores</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Dada la tabla de valores que relaciona el tiempo \\(t\\) y la distancia \\(g(t)\\) de un recorrido:\n<div style=\"overflow-x: auto; margin-top: 10px;\">\n<table role=\"grid\" aria-label=\"Tabla g(t)\" style=\"border-collapse: collapse; min-width: 420px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(t\\)</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(0\\)</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(2\\)</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(4\\)</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(6\\)</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(8\\)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">\\(g(t)\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(0\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(4\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(12\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(28\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(40\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\nCalculamos la TVM entre \\(t_1 = 2\\) y \\(t_2 = 6\\):\n<div style=\"text-align: center; margin: 10px 0; font-size: 16px;\">\\( \\displaystyle \\text{TVM}[2, 6] = \\frac{g(6) - g(2)}{6 - 2} = \\frac{28 - 4}{4} = \\frac{24}{4} = 6 \\)</div>\n</div>\n<!-- 3) GRÁFICA -->\n<h2>Ejemplo · Gráfica</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Gráficamente, la TVM en un intervalo \\([x_1, x_2]\\) representa la <b>pendiente de la recta secante</b> que conecta los puntos correspondientes sobre la curva de la función.\n<div style=\"text-align: center; margin: 12px 0;\"><span style=\"display: inline-block; padding: 8px 12px; background: #f8f9fa; border: 1px dashed #ccc; border-radius: 4px;\">Pendiente de la recta secante = \\(\\displaystyle \\frac{\\Delta y}{\\Delta x} = \\text{TVM}[x_1, x_2]\\)</span></div>\n</div>\n<!-- 4) EXPRESIÓN ESCRITA -->\n<h2>Ejemplo · Expresión escrita</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">“La <b>velocidad media</b> de un coche en movimiento a lo largo de una trayectoria. Si entre el minuto \\(t = 2\\) y el minuto \\(t = 5\\) se pasa de una distancia de \\(3\\) metros a \\(27\\) metros, la velocidad media es la tasa de variación media de la distancia respecto al tiempo:\n<div style=\"text-align: center; margin: 10px 0; font-size: 16px;\">\\( \\displaystyle \\text{TVM}[2, 5] = \\frac{27 - 3}{5 - 2} = \\frac{24}{3} = 8 \\text{ m/min} \\)</div>\n”</div>\n</div>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+  <odeParentPageId>page-mqkx76g1-t5mddzcuo</odeParentPageId>
+  <pageName>El límite: Tasa de Variación Instantánea</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El límite: Tasa de Variación Instantánea</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El límite: Tasa de Variación Instantánea</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+      <odeBlockId>block-mudvrq4t-metzd2l75</odeBlockId>
+      <blockName>El paso al límite: Derivada</blockName>
+      <iconName>udl_rep_reflexion</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+          <odeBlockId>block-mudvrq4t-metzd2l75</odeBlockId>
+          <odeIdeviceId>idevice-1790154502156-dj20c0y5q</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div class="exe-text-activity"><h3 style="text-align: center; color: #2c3e50;">LA FUNCIÓN DERIVADA</h3>
+<p>Dada la función \( f(x) = \frac{1}{3}x^2 + 2x \), calcula su derivada en los puntos siguientes haciendo el límite de la Tasa de Variación Media (TVM) a medida que el intervalo se acerca al punto[cite: 7]:</p>
+<!-- X = 0 -->
+<h4>Punto \(x = 0\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=0" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.0001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 25px;"><strong>\( f'(0) = \)</strong> <span style="display: inline-block; border-bottom: 1px solid #333; width: 80px;"></span></div>
+<!-- X = 1 -->
+<h4>Punto \(x = 1\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=1" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 2]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.00001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 25px;"><strong>\( f'(1) = \)</strong> <span style="display: inline-block; border-bottom: 1px solid #333; width: 80px;"></span></div>
+<!-- X = 2 -->
+<h4>Punto \(x = 2\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=2" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 3]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.00001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 25px;"><strong>\( f'(2) = \)</strong> <span style="display: inline-block; border-bottom: 1px solid #333; width: 80px;"></span></div>
+<!-- X = -1 -->
+<h4>Punto \(x = -1\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=-1" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, 0]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.9]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.99]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.999]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.99999]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Interpreta tus resultados gráficamente utilizando esta representación de la gráfica de la función:</p>
+<p><img src="{{context_path}}/content/resources/mceclip0_2.png" /></p>
+<p>¿Cómo se puede interpretar la derivada en cada punto?</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Soluciones" data-text-a="Soluciones" data-text-b="Soluciones"></div><div class="feedback js-feedback js-hidden" style="display: none;"><h3 style="text-align: center; color: #2c3e50;">SOLUCIONES · LA FUNCIÓN DERIVADA COMO LÍMITE</h3>
+<p>Dada la función \( f(x) = \frac{1}{3}x^2 + 2x \), estos son los cálculos de la Tasa de Variación Media (TVM) conforme el intervalo se aproxima a cada punto[cite: 7]:</p>
+<!-- X = 0 -->
+<h4>Punto \(x = 0\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=0 soluciones" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[0, 0.0001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.3333\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.0333\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.0033\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.0003\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.0000\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 25px;"><strong>\( f'(0) = \)</strong> <strong>\(2\)</strong></div>
+<!-- X = 1 -->
+<h4>Punto \(x = 1\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=1 soluciones" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 2]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[1, 1.00001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(3.0000\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.7000\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.6700\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.6670\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(2.6667\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 25px;"><strong>\( f'(1) = \)</strong> <strong>\(\frac{8}{3} \approx 2.6667\)</strong></div>
+<!-- X = 2 -->
+<h4>Punto \(x = 2\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=2 soluciones" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 3]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[2, 2.00001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(3.6667\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(3.3667\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(3.3367\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(3.3337\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(3.3333\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 25px;"><strong>\( f'(2) = \)</strong> <strong>\(\frac{10}{3} \approx 3.3333\)</strong></div>
+<!-- X = -1 -->
+<h4>Punto \(x = -1\)</h4>
+<div style="overflow-x: auto; margin-bottom: 20px;">
+<table role="grid" aria-label="Tabla x=-1 soluciones" style="border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, 0]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.9]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.99]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.999]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;">[-1, -0.99999]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;">TVM</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(1.6667\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(1.3667\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(1.3367\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(1.3337\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px; text-align: center;">\(1.3333\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom: 15px;"><strong>\( f'(-1) = \)</strong> <strong>\(\frac{4}{3} \approx 1.3333\)</strong></div></div></div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1790154502156-dj20c0y5q","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div class=\"exe-text-activity\"><h3 style=\"text-align: center; color: #2c3e50;\">LA FUNCIÓN DERIVADA</h3>\n<p>Dada la función \\( f(x) = \\frac{1}{3}x^2 + 2x \\), calcula su derivada en los puntos siguientes haciendo el límite de la Tasa de Variación Media (TVM) a medida que el intervalo se acerca al punto[cite: 7]:</p>\n<!-- X = 0 -->\n<h4>Punto \\(x = 0\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=0\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.0001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(0) = \\)</strong> <span style=\"display: inline-block; border-bottom: 1px solid #333; width: 80px;\"></span></div>\n<!-- X = 1 -->\n<h4>Punto \\(x = 1\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=1\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 2]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(1) = \\)</strong> <span style=\"display: inline-block; border-bottom: 1px solid #333; width: 80px;\"></span></div>\n<!-- X = 2 -->\n<h4>Punto \\(x = 2\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=2\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 3]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(2) = \\)</strong> <span style=\"display: inline-block; border-bottom: 1px solid #333; width: 80px;\"></span></div>\n<!-- X = -1 -->\n<h4>Punto \\(x = -1\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=-1\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, 0]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.9]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.99]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.999]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.99999]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\"> </td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>Interpreta tus resultados gráficamente utilizando esta representación de la gráfica de la función:</p>\n<p><img src=\"{{context_path}}/content/resources/mceclip0_2.png\" /></p>\n<p>¿Cómo se puede interpretar la derivada en cada punto?</p><div class=\"iDevice_buttons feedback-button js-required\"><input type=\"button\" class=\"feedbacktooglebutton\" value=\"Soluciones\" data-text-a=\"Soluciones\" data-text-b=\"Soluciones\"></div><div class=\"feedback js-feedback js-hidden\" style=\"display: none;\"><h3 style=\"text-align: center; color: #2c3e50;\">SOLUCIONES · LA FUNCIÓN DERIVADA COMO LÍMITE</h3>\n<p>Dada la función \\( f(x) = \\frac{1}{3}x^2 + 2x \\), estos son los cálculos de la Tasa de Variación Media (TVM) conforme el intervalo se aproxima a cada punto[cite: 7]:</p>\n<!-- X = 0 -->\n<h4>Punto \\(x = 0\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=0 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.0001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.3333\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0333\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0033\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0003\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0000\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(0) = \\)</strong> <strong>\\(2\\)</strong></div>\n<!-- X = 1 -->\n<h4>Punto \\(x = 1\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=1 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 2]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.0000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.7000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.6700\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.6670\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.6667\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(1) = \\)</strong> <strong>\\(\\frac{8}{3} \\approx 2.6667\\)</strong></div>\n<!-- X = 2 -->\n<h4>Punto \\(x = 2\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=2 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 3]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.6667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3367\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3337\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3333\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(2) = \\)</strong> <strong>\\(\\frac{10}{3} \\approx 3.3333\\)</strong></div>\n<!-- X = -1 -->\n<h4>Punto \\(x = -1\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=-1 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, 0]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.9]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.99]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.999]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.99999]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.6667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3367\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3337\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3333\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 15px;\"><strong>\\( f'(-1) = \\)</strong> <strong>\\(\\frac{4}{3} \\approx 1.3333\\)</strong></div></div></div>","textFeedbackInput":"Soluciones","textFeedbackTextarea":"<h3 style=\"text-align: center; color: #2c3e50;\">SOLUCIONES · LA FUNCIÓN DERIVADA COMO LÍMITE</h3>\n<p>Dada la función \\( f(x) = \\frac{1}{3}x^2 + 2x \\), estos son los cálculos de la Tasa de Variación Media (TVM) conforme el intervalo se aproxima a cada punto[cite: 7]:</p>\n<!-- X = 0 -->\n<h4>Punto \\(x = 0\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=0 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[0, 0.0001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.3333\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0333\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0033\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0003\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.0000\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(0) = \\)</strong> <strong>\\(2\\)</strong></div>\n<!-- X = 1 -->\n<h4>Punto \\(x = 1\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=1 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 2]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[1, 1.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.0000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.7000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.6700\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.6670\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(2.6667\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(1) = \\)</strong> <strong>\\(\\frac{8}{3} \\approx 2.6667\\)</strong></div>\n<!-- X = 2 -->\n<h4>Punto \\(x = 2\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=2 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 3]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[2, 2.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.6667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3367\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3337\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(3.3333\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 25px;\"><strong>\\( f'(2) = \\)</strong> <strong>\\(\\frac{10}{3} \\approx 3.3333\\)</strong></div>\n<!-- X = -1 -->\n<h4>Punto \\(x = -1\\)</h4>\n<div style=\"overflow-x: auto; margin-bottom: 20px;\">\n<table role=\"grid\" aria-label=\"Tabla x=-1 soluciones\" style=\"border-collapse: collapse; width: 100%; min-width: 500px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, 0]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.9]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.99]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.999]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px; background: #f9fafb; text-align: center;\">[-1, -0.99999]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; font-weight: bold; text-align: center;\">TVM</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.6667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3667\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3367\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3337\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px; text-align: center;\">\\(1.3333\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"margin-bottom: 15px;\"><strong>\\( f'(-1) = \\)</strong> <strong>\\(\\frac{4}{3} \\approx 1.3333\\)</strong></div>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+      <odeBlockId>block-mudvy0w1-syn93y8es</odeBlockId>
+      <blockName>Definición de función</blockName>
+      <iconName>udl_exp_lee</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+          <odeBlockId>block-mudvy0w1-syn93y8es</odeBlockId>
+          <odeIdeviceId>idevice-mudvy0w2-9q9nwndfr</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>
+<script type="text/javascript"> 
+  $(window).load(function(){
+    $.each([0,1,2,3,4,5], function(index , value ) {
+   $("p.toggle-idevice a").eq(value).click();
+    })
+  });
+</script>
+</p>
+<div id="teoria-box-fn1" role="region" aria-label="Bloque de teoría" style="all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;">
+<div data-tb="wrap" style="box-sizing: border-box; border: 2px solid #e11; border-radius: 2px; padding: 18px 22px; background: #fff; max-width: 980px; margin: 8px auto;"><!-- TÍTULO -->
+<div data-tb="title" style="box-sizing: border-box; font-weight: 800; font-size: 18px; line-height: 1.3; color: #0f2d3b; margin: 0 0 12px;">Derivada en un punto (Límite de la TVM)</div>
+<!-- CUERPO -->
+<div data-tb="content" style="box-sizing: border-box; font-size: 16px; line-height: 1.5; color: #0f2d3b;">
+<div data-tb="content" style="box-sizing: border-box; font-size: 15px; line-height: 1.5; color: #111; text-align: justify;">La <b>derivada de una función en un punto</b> \(x_0\) mide la rapidez instantánea con la que cambia la función en ese preciso instante. Se define formalmente como el límite de la Tasa de Variación Media (TVM) cuando el intervalo de estudio se hace infinitamente pequeño (\(h \to 0\) o \(x \to x_0\)):</div>
+<div style="margin: 14px 0; text-align: center;">\( \displaystyle f'(x_0) = \lim_{x \to x_0} \frac{f(x) - f(x_0)}{x - x_0} = \lim_{h \to 0} \frac{f(x_0 + h) - f(x_0)}{h} \)</div>
+</div>
+</div>
+El concepto de la derivada como límite de la TVM puede analizarse de varias maneras:</div>
+<div role="region" aria-label="Bloque de teoría" style="all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;">
+<div class="exe-fx exe-tabs"><!-- 1) EXPRESIÓN ALGEBRAICA -->
+<h2>Ejemplo · Expresión algebraica</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">Dada la función \( f(x) = \frac{1}{3}x^2 + 2x \), calculamos su derivada en el punto \(x_0 = 1\) aplicando el límite de la TVM:
+<div style="margin: 10px 0; font-size: 15px;">1. Planteamos la TVM en un entorno de \(1\) con un incremento \(h\):<br />\(\displaystyle \text{TVM}[1, 1+h] = \frac{f(1+h) - f(1)}{h}\)<br />2. Resolvemos el límite cuando \(h\) se aproxima a \(0\):</div>
+<div style="text-align: center; margin: 10px 0; font-size: 17px;">\( \displaystyle f'(1) = \lim_{h \to 0} \left( \frac{8}{3} + \frac{1}{3}h + 2 \right) = \frac{8}{3} \approx 2.67 \)</div>
+</div>
+<!-- 2) TABLA -->
+<h2>Ejemplo · Tabla de valores</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">Podemos aproximar el valor de la derivada observando cómo se comporta la TVM al estrechar los intervalos alrededor de \(x = 1\):
+<div style="overflow-x: auto; margin-top: 10px;">
+<table role="grid" aria-label="Tabla de aproximación de la derivada" style="border-collapse: collapse; min-width: 420px; font-size: 14px;">
+<thead>
+<tr>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">Intervalo</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">[1, 2]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">[1, 1.1]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">[1, 1.01]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">[1, 1.001]</th>
+<th style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;">[1, 1.00001]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;"><strong>TVM</strong></td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(3.0000\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(2.7000\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(2.6700\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(2.6670\)</td>
+<td style="border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;">\(2.6667\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+Al tender el intervalo a cero, el límite se estabiliza en \(f'(1) = \frac{8}{3} \approx 2.6667\).</div>
+<!-- 3) GRÁFICA -->
+<h2>Ejemplo · Gráfica</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">Gráficamente, la derivada en un punto es el límite de las rectas secantes (TVM). Cuando el punto \(x_2\) se acerca a \(x_1\), la recta secante se transforma en la <b>recta tangente</b> a la curva en ese punto.
+<div style="text-align: center; margin: 12px 0;"><span style="display: inline-block; padding: 8px 12px; background: #f8f9fa; border: 1px dashed #ccc; border-radius: 4px;">Pendiente de la recta tangente = \(\displaystyle f'(x_0) = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x}\)</span></div>
+</div>
+<!-- 4) EXPRESIÓN ESCRITA -->
+<h2>Ejemplo · Expresión escrita</h2>
+<div style="box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;">“La <b>velocidad instantánea</b> que marca el velocímetro de un coche en un segundo exacto de su viaje. Mientras que la TVM mide el promedio de velocidad de todo un trayecto, la derivada (como límite de la TVM) calcula la velocidad real en el milisegundo exacto en que miramos el cuentakilómetros.”</div>
+</div>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-mudvy0w2-9q9nwndfr","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>\n<script type=\"text/javascript\"> \n  $(window).load(function(){\n    $.each([0,1,2,3,4,5], function(index , value ) {\n   $(\"p.toggle-idevice a\").eq(value).click();\n    })\n  });\n</script>\n</p>\n<div id=\"teoria-box-fn1\" role=\"region\" aria-label=\"Bloque de teoría\" style=\"all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;\">\n<div data-tb=\"wrap\" style=\"box-sizing: border-box; border: 2px solid #e11; border-radius: 2px; padding: 18px 22px; background: #fff; max-width: 980px; margin: 8px auto;\"><!-- TÍTULO -->\n<div data-tb=\"title\" style=\"box-sizing: border-box; font-weight: 800; font-size: 18px; line-height: 1.3; color: #0f2d3b; margin: 0 0 12px;\">Derivada en un punto (Límite de la TVM)</div>\n<!-- CUERPO -->\n<div data-tb=\"content\" style=\"box-sizing: border-box; font-size: 16px; line-height: 1.5; color: #0f2d3b;\">\n<div data-tb=\"content\" style=\"box-sizing: border-box; font-size: 15px; line-height: 1.5; color: #111; text-align: justify;\">La <b>derivada de una función en un punto</b> \\(x_0\\) mide la rapidez instantánea con la que cambia la función en ese preciso instante. Se define formalmente como el límite de la Tasa de Variación Media (TVM) cuando el intervalo de estudio se hace infinitamente pequeño (\\(h \\to 0\\) o \\(x \\to x_0\\)):</div>\n<div style=\"margin: 14px 0; text-align: center;\">\\( \\displaystyle f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0} = \\lim_{h \\to 0} \\frac{f(x_0 + h) - f(x_0)}{h} \\)</div>\n</div>\n</div>\nEl concepto de la derivada como límite de la TVM puede analizarse de varias maneras:</div>\n<div role=\"region\" aria-label=\"Bloque de teoría\" style=\"all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;\">\n<div class=\"exe-fx exe-tabs\"><!-- 1) EXPRESIÓN ALGEBRAICA -->\n<h2>Ejemplo · Expresión algebraica</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Dada la función \\( f(x) = \\frac{1}{3}x^2 + 2x \\), calculamos su derivada en el punto \\(x_0 = 1\\) aplicando el límite de la TVM:\n<div style=\"margin: 10px 0; font-size: 15px;\">1. Planteamos la TVM en un entorno de \\(1\\) con un incremento \\(h\\):<br />\\(\\displaystyle \\text{TVM}[1, 1+h] = \\frac{f(1+h) - f(1)}{h}\\)<br />2. Resolvemos el límite cuando \\(h\\) se aproxima a \\(0\\):</div>\n<div style=\"text-align: center; margin: 10px 0; font-size: 17px;\">\\( \\displaystyle f'(1) = \\lim_{h \\to 0} \\left( \\frac{8}{3} + \\frac{1}{3}h + 2 \\right) = \\frac{8}{3} \\approx 2.67 \\)</div>\n</div>\n<!-- 2) TABLA -->\n<h2>Ejemplo · Tabla de valores</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Podemos aproximar el valor de la derivada observando cómo se comporta la TVM al estrechar los intervalos alrededor de \\(x = 1\\):\n<div style=\"overflow-x: auto; margin-top: 10px;\">\n<table role=\"grid\" aria-label=\"Tabla de aproximación de la derivada\" style=\"border-collapse: collapse; min-width: 420px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 2]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\"><strong>TVM</strong></td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(3.0000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.7000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.6700\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.6670\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.6667\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\nAl tender el intervalo a cero, el límite se estabiliza en \\(f'(1) = \\frac{8}{3} \\approx 2.6667\\).</div>\n<!-- 3) GRÁFICA -->\n<h2>Ejemplo · Gráfica</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Gráficamente, la derivada en un punto es el límite de las rectas secantes (TVM). Cuando el punto \\(x_2\\) se acerca a \\(x_1\\), la recta secante se transforma en la <b>recta tangente</b> a la curva en ese punto.\n<div style=\"text-align: center; margin: 12px 0;\"><span style=\"display: inline-block; padding: 8px 12px; background: #f8f9fa; border: 1px dashed #ccc; border-radius: 4px;\">Pendiente de la recta tangente = \\(\\displaystyle f'(x_0) = \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x}\\)</span></div>\n</div>\n<!-- 4) EXPRESIÓN ESCRITA -->\n<h2>Ejemplo · Expresión escrita</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">“La <b>velocidad instantánea</b> que marca el velocímetro de un coche en un segundo exacto de su viaje. Mientras que la TVM mide el promedio de velocidad de todo un trayecto, la derivada (como límite de la TVM) calcula la velocidad real en el milisegundo exacto en que miramos el cuentakilómetros.”</div>\n</div>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-muduouam-ql9bywxjy</odePageId>
+  <odeParentPageId>page-mqkx76g1-t5mddzcuo</odeParentPageId>
+  <pageName>Las reglas de derivación. Derivando polinomios</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Las reglas de derivación. Derivando polinomios</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Las reglas de derivación. Derivando polinomios</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-muduouam-ql9bywxjy</odePageId>
+      <odeBlockId>block-mudw0ysr-ari125nee</odeBlockId>
+      <blockName>Reglas de derivación</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-muduouam-ql9bywxjy</odePageId>
+          <odeBlockId>block-mudw0ysr-ari125nee</odeBlockId>
+          <odeIdeviceId>idevice-1790154933290-jq4qpgtwi</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><img src="{{context_path}}/content/resources/underconstruction.png" width="600" height="250" alt="" /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1790154933290-jq4qpgtwi","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><img src=\"{{context_path}}/content/resources/underconstruction.png\" width=\"600\" height=\"250\" alt=\"\" /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mudup37u-hgnschfsn</odePageId>
+  <odeParentPageId>page-mqkx76g1-t5mddzcuo</odeParentPageId>
+  <pageName>Aplicaciones de la derivada</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Aplicaciones de la derivada</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Aplicaciones de la derivada</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mudup37u-hgnschfsn</odePageId>
+      <odeBlockId>block-mudw1tlb-ismz1xobt</odeBlockId>
+      <blockName>Aplicaciones de la derivada</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mudup37u-hgnschfsn</odePageId>
+          <odeBlockId>block-mudw1tlb-ismz1xobt</odeBlockId>
+          <odeIdeviceId>idevice-mudw1tlb-pdlscl040</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><img src="{{context_path}}/content/resources/underconstruction.png" width="600" height="250" alt="" /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1790154933290-jq4qpgtwi","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><img src=\"{{context_path}}/content/resources/underconstruction.png\" width=\"600\" height=\"250\" alt=\"\" /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4260,10 +5098,107 @@ Para estudiar los signos de una función:
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
+  <odePageId>page-muf7r5v2-vngvsh9l0</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Pruebas realizadas</pageName>
+  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Pruebas realizadas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Pruebas realizadas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-muf7r5v2-vngvsh9l0</odePageId>
+      <odeBlockId>block-muf7rerj-xeizg05ku</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-muf7r5v2-vngvsh9l0</odePageId>
+          <odeBlockId>block-muf7rerj-xeizg05ku</odeBlockId>
+          <odeIdeviceId>idevice-1790235108990-xxych5my1</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <h2>Curso 2026-27</h2>
+<ul>
+<li><a href="https://cloud.educa.madrid.org/s/dDZK4x8AWoCfrYE" target="_blank" title="" rel="noopener">Tema 1 - Minitest.</a> Solución.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1790235108990-xxych5my1","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h2>Curso 2026-27</h2>\n<ul>\n<li><a href=\"https://cloud.educa.madrid.org/s/dDZK4x8AWoCfrYE\" target=\"_blank\" title=\"\" rel=\"noopener\">Tema 1 - Minitest.</a> Solución.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
   <odePageId>page-mqkx76g1-w8ylgvxwx</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Créditos</pageName>
-  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureOrder>8</odeNavStructureOrder>
   <odeNavStructureProperties>
     <odeNavStructureProperty>
       <key>titlePage</key>

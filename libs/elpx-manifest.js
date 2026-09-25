@@ -20,9 +20,14 @@ window.__ELPX_MANIFEST__={
     "html/funciones-exponenciales.html",
     "html/modelo-de-proporcionalidad-inversa.html",
     "html/tema-2---la-tasa-de-cambio-derivada.html",
+    "html/tasa-de-variacion-media.html",
+    "html/el-limite-tasa-de-variacion-instantanea.html",
+    "html/las-reglas-de-derivacion-derivando-polinomios.html",
+    "html/aplicaciones-de-la-derivada.html",
     "html/tema-3---combinatoria-y-probabilidad.html",
     "html/tema-4---modelo-periodico.html",
     "html/tema-5---distribuciones-discretas-bernoulli.html",
+    "html/pruebas-realizadas.html",
     "html/creditos.html",
     "content.xml",
     "content/css/base.css",
@@ -256,6 +261,8 @@ window.__ELPX_MANIFEST__={
     "content/resources/blobid0.png",
     "content/resources/mceclip0.png",
     "content/resources/mceclip0_1.png",
+    "content/resources/S6Ma3 Derivada definición como lim de TVM.pdf",
+    "content/resources/mceclip0_2.png",
     "libs/elpx-manifest.js"
   ],
   "projectTitle": "S6 - Matemáticas 3p"
