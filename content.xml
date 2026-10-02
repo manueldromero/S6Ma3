@@ -56,7 +56,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>1790338982589</value>
+    <value>1790927281307</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -4380,6 +4380,63 @@ Al tender el intervalo a cero, el límite se estabiliza en \(f'(1) = \frac{8}{3}
 </div>
 </div>]]></htmlView>
           <jsonProperties><![CDATA[{"ideviceId":"idevice-mudvy0w2-9q9nwndfr","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>\n<script type=\"text/javascript\"> \n  $(window).load(function(){\n    $.each([0,1,2,3,4,5], function(index , value ) {\n   $(\"p.toggle-idevice a\").eq(value).click();\n    })\n  });\n</script>\n</p>\n<div id=\"teoria-box-fn1\" role=\"region\" aria-label=\"Bloque de teoría\" style=\"all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;\">\n<div data-tb=\"wrap\" style=\"box-sizing: border-box; border: 2px solid #e11; border-radius: 2px; padding: 18px 22px; background: #fff; max-width: 980px; margin: 8px auto;\"><!-- TÍTULO -->\n<div data-tb=\"title\" style=\"box-sizing: border-box; font-weight: 800; font-size: 18px; line-height: 1.3; color: #0f2d3b; margin: 0 0 12px;\">Derivada en un punto (Límite de la TVM)</div>\n<!-- CUERPO -->\n<div data-tb=\"content\" style=\"box-sizing: border-box; font-size: 16px; line-height: 1.5; color: #0f2d3b;\">\n<div data-tb=\"content\" style=\"box-sizing: border-box; font-size: 15px; line-height: 1.5; color: #111; text-align: justify;\">La <b>derivada de una función en un punto</b> \\(x_0\\) mide la rapidez instantánea con la que cambia la función en ese preciso instante. Se define formalmente como el límite de la Tasa de Variación Media (TVM) cuando el intervalo de estudio se hace infinitamente pequeño (\\(h \\to 0\\) o \\(x \\to x_0\\)):</div>\n<div style=\"margin: 14px 0; text-align: center;\">\\( \\displaystyle f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0} = \\lim_{h \\to 0} \\frac{f(x_0 + h) - f(x_0)}{h} \\)</div>\n</div>\n</div>\nEl concepto de la derivada como límite de la TVM puede analizarse de varias maneras:</div>\n<div role=\"region\" aria-label=\"Bloque de teoría\" style=\"all: initial; display: block; box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;\">\n<div class=\"exe-fx exe-tabs\"><!-- 1) EXPRESIÓN ALGEBRAICA -->\n<h2>Ejemplo · Expresión algebraica</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Dada la función \\( f(x) = \\frac{1}{3}x^2 + 2x \\), calculamos su derivada en el punto \\(x_0 = 1\\) aplicando el límite de la TVM:\n<div style=\"margin: 10px 0; font-size: 15px;\">1. Planteamos la TVM en un entorno de \\(1\\) con un incremento \\(h\\):<br />\\(\\displaystyle \\text{TVM}[1, 1+h] = \\frac{f(1+h) - f(1)}{h}\\)<br />2. Resolvemos el límite cuando \\(h\\) se aproxima a \\(0\\):</div>\n<div style=\"text-align: center; margin: 10px 0; font-size: 17px;\">\\( \\displaystyle f'(1) = \\lim_{h \\to 0} \\left( \\frac{8}{3} + \\frac{1}{3}h + 2 \\right) = \\frac{8}{3} \\approx 2.67 \\)</div>\n</div>\n<!-- 2) TABLA -->\n<h2>Ejemplo · Tabla de valores</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Podemos aproximar el valor de la derivada observando cómo se comporta la TVM al estrechar los intervalos alrededor de \\(x = 1\\):\n<div style=\"overflow-x: auto; margin-top: 10px;\">\n<table role=\"grid\" aria-label=\"Tabla de aproximación de la derivada\" style=\"border-collapse: collapse; min-width: 420px; font-size: 14px;\">\n<thead>\n<tr>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">Intervalo</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 2]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.1]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.01]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.001]</th>\n<th style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\">[1, 1.00001]</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; background: #f9fafb; text-align: center;\"><strong>TVM</strong></td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(3.0000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.7000\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.6700\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.6670\\)</td>\n<td style=\"border: 1px solid #e5e7eb; padding: 8px 10px; text-align: center;\">\\(2.6667\\)</td>\n</tr>\n</tbody>\n</table>\n</div>\nAl tender el intervalo a cero, el límite se estabiliza en \\(f'(1) = \\frac{8}{3} \\approx 2.6667\\).</div>\n<!-- 3) GRÁFICA -->\n<h2>Ejemplo · Gráfica</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">Gráficamente, la derivada en un punto es el límite de las rectas secantes (TVM). Cuando el punto \\(x_2\\) se acerca a \\(x_1\\), la recta secante se transforma en la <b>recta tangente</b> a la curva en ese punto.\n<div style=\"text-align: center; margin: 12px 0;\"><span style=\"display: inline-block; padding: 8px 12px; background: #f8f9fa; border: 1px dashed #ccc; border-radius: 4px;\">Pendiente de la recta tangente = \\(\\displaystyle f'(x_0) = \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x}\\)</span></div>\n</div>\n<!-- 4) EXPRESIÓN ESCRITA -->\n<h2>Ejemplo · Expresión escrita</h2>\n<div style=\"box-sizing: border-box; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; line-height: 1.55;\">“La <b>velocidad instantánea</b> que marca el velocímetro de un coche en un segundo exacto de su viaje. Mientras que la TVM mide el promedio de velocidad de todo un trayecto, la derivada (como límite de la TVM) calcula la velocidad real en el milisegundo exacto en que miramos el cuentakilómetros.”</div>\n</div>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+      <odeBlockId>block-muqnhdgr-l6vmer03i</odeBlockId>
+      <blockName>Estimación del valor de la derivada</blockName>
+      <iconName>udl_sup_escribe</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mudunxq6-x8dk2hw17</odePageId>
+          <odeBlockId>block-muqnhdgr-l6vmer03i</odeBlockId>
+          <odeIdeviceId>idevice-1790926642538-dnu2h9hlm</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Estima el valor de la derivada de la función en los puntos indicados:</p>
+<p><img src="{{context_path}}/content/resources/Función para ejercicio de derivadas a ojo.png" title="Función para ejercicio de derivadas a ojo" width="1491" height="921" alt="Función para ejercicio de derivadas a ojo" /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1790926642538-dnu2h9hlm","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Estima el valor de la derivada de la función en los puntos indicados:</p>\n<p><img src=\"{{context_path}}/content/resources/Función para ejercicio de derivadas a ojo.png\" title=\"Función para ejercicio de derivadas a ojo\" width=\"1491\" height=\"921\" alt=\"Función para ejercicio de derivadas a ojo\" /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
