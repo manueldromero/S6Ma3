@@ -136,6 +136,7 @@ window.__ELPX_MANIFEST__={
     "libs/common_i18n.js",
     "libs/exe_export.js",
     "libs/favicon.ico",
+    "libs/material-icons/icons/calculate.svg",
     "libs/common_i18n.js",
     "libs/exe_effects/exe_effects.js",
     "libs/exe_effects/exe_effects.css",
@@ -253,10 +254,12 @@ window.__ELPX_MANIFEST__={
     "content/resources/Función para ejercicio de derivadas a ojo.jpg",
     "content/resources/Gráficas de tasas de variación instantánea.jpg",
     "content/resources/Gráfica de decaimiento exponencial.jpg",
-    "content/resources/mceclip0.png",
+    "content/resources/mceclip0_1.jpg",
     "content/resources/mceclip1.png",
-    "content/resources/mceclip2.png",
+    "content/resources/mceclip2.jpg",
     "content/resources/mceclip3.png",
+    "content/resources/Captura de pantalla 2026-10-08 170945.jpg",
+    "content/resources/Captura de pantalla 2026-10-08 171156.jpg",
     "libs/elpx-manifest.js"
   ],
   "projectTitle": "S6 - Matemáticas 3p"

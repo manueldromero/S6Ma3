@@ -10,6 +10,8 @@
 <meta name="description" content="Programación y materiales para la materia S6 - Matemáticas 3p del Syllabus de las Escuelas Europeas. Fecha de primera creación: Julio 2026">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
 <script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../libs/exe_effects/exe_effects.js"> </script>
+<link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
 <script src="../libs/exe_math/tex-mml-svg.js"> </script>
 </head>
@@ -77,16 +79,202 @@
 <div class="package-header"><p class="package-title">S6 - Matemáticas 3p</p></div>
 <div class="page-header"><h1 class="page-title">Aplicaciones de la derivada</h1></div>
 </header><div id="page-content-page-mudup37u-hgnschfsn" class="page-content">
-<article id="block-mudw1tlb-ismz1xobt" class="box">
+<article id="block-mudw1tlb-ismz1xobt" class="box no-header">
 <header class="box-head no-icon">
-<h1 class="box-title">Aplicaciones de la derivada</h1>
-<button class="box-toggle box-toggle-on" title="Toggle content">
-<span>Toggle content</span>
-</button></header>
+</header>
 <div class="box-content">
 <div id="idevice-mudw1tlb-pdlscl040" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mudw1tlb-pdlscl040&quot;}">
 <div class="exe-text-template">
-    <p><img src="../content/resources/underconstruction.png" width="600" height="250" alt="" /></p>
+    <p>En esta sección vamos a utilizar la noción de derivada de una función \(f(x)\) en un punto \(x=x_0\) en distintas aplicaciones:</p>
+<ul>
+<li>Ecuación de la recta tangente en un punto</li>
+<li>Estudiar si una función es creciente o decreciente en un punto o en un intervalo</li>
+<li>Determinar los máximos y mínimos de una función</li>
+</ul>
+</div>
+</div>
+</div>
+</article><article id="block-mv556v2u-tne103n4g" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_lee.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">La recta tangente a una función en un punto</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1791802911701-5tedbztra" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1791802911701-5tedbztra&quot;}">
+<div class="exe-text-template">
+    <p>Una de las interpretaciones más importantes de la derivada es geométrica: la derivada de una función en un punto nos da la <strong>pendiente de la recta tangente</strong> a su gráfica en ese punto.</p>
+<p>Sea una función \(f\) y un punto de su gráfica</p>
+<p>\[ A=(a,f(a)). \]</p>
+<p>La pendiente de la recta tangente a la curva en \(A\) viene dada por</p>
+<p>\[ m=f'(a). \]</p>
+<p>Por tanto, para hallar la recta tangente necesitamos dos datos:</p>
+<ul>
+<li>el punto de tangencia \(A=(a,f(a))\);</li>
+<li>la pendiente \(m=f'(a)\).</li>
+</ul>
+<div style="background-color: #fce8e8; border: 1px solid #d9534f; padding: 15px; margin: 15px 0;">
+<p style="color: #b30000;"><strong>Ecuación de la recta tangente</strong></p>
+<p>La recta tangente a la gráfica de \(y=f(x)\) en el punto de abscisa \(x=a\) tiene pendiente</p>
+\[ m=f'(a). \]
+<p>Como pasa por el punto \((a,f(a))\), su ecuación es</p>
+\[ \boxed{y-f(a)=f'(a)(x-a)}. \]
+<p>De forma equivalente, también puede escribirse como</p>
+\[ \boxed{y=f(a)+f'(a)(x-a)}. \]</div>
+<p><strong>Procedimiento:</strong></p>
+<ol>
+<li>Calcula \(f'(x)\).</li>
+<li>Evalúa la derivada en \(x=a\): \(f'(a)\).</li>
+<li>Calcula el punto de tangencia: \((a,f(a))\).</li>
+<li>Sustituye estos datos en la ecuación \[ y-f(a)=f'(a)(x-a). \]</li>
+</ol>
+<div class="exe-fx exe-accordion">
+<h2>Halla la ecuación de la recta tangente a \(f(x)=x^2\) en \(x=2\)</h2>
+<p>Primero calculamos la derivada:</p>
+\[ f'(x)=2x. \]
+<p>La pendiente de la tangente en \(x=2\) es</p>
+\[ f'(2)=2\cdot 2=4. \]
+<p>Calculamos ahora la ordenada del punto de tangencia:</p>
+\[ f(2)=2^2=4. \]
+<p>Por tanto, la recta tangente pasa por el punto \((2,4)\) y tiene pendiente \(4\).</p>
+<p>Utilizamos la ecuación punto-pendiente:</p>
+\[ y-4=4(x-2). \]
+<p>Simplificando:</p>
+\[ \boxed{y=4x-4}. \]</div>
+<p><br /></p>
+</div>
+</div>
+</div>
+</article><article id="block-mv55h9ng-fkmhmdph9" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ahora, a practicar</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1791803397145-8vbfzrh99" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1791803397145-8vbfzrh99&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><ol>
+<li>
+<p>Halla la ecuación de la recta tangente a \(y=f(x)\) en cada caso:</p>
+<ol type="a">
+<li>\(f(x)=x^3+3x\), en \(x=1\).</li>
+<li>\(f(x)=2x^2-4x+1\), en \(x=-1\).</li>
+<li>\(\displaystyle f(x)=x+\frac{3}{x}\), en \(x=3\).</li>
+<li>\(\displaystyle f(x)=\frac{x^2+9}{x}\), en \(x=-3\).</li>
+</ol>
+</li>
+<li>
+<p>Halla las coordenadas del punto o de los puntos de la gráfica que cumplen la condición indicada:</p>
+<ol type="a">
+<li>\(f(x)=x^2+4x+2\), donde la tangente es horizontal.</li>
+<li>\(f(x)=x^3-3x\), donde la tangente tiene pendiente \(9\).</li>
+<li>\(f(x)=x^3-2x+1\), donde la tangente tiene pendiente \(10\).</li>
+<li>\(f(x)=ax^2+bx+c\), donde la tangente tiene pendiente \(0\), con \(a\neq 0\).</li>
+</ol>
+</li>
+</ol><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Soluciones" data-text-a="Soluciones" data-text-b="Soluciones"></div><div class="feedback js-feedback js-hidden" style="display: none;"><div class="exe-fx exe-accordion">
+<h2>Ejercicio 1.a — \(f(x)=x^3+3x\), en \(x=1\)</h2>
+<p>Calculamos la derivada:</p>
+\[ f'(x)=3x^2+3. \]
+<p>La pendiente de la recta tangente es</p>
+\[ f'(1)=3+3=6. \]
+<p>El punto de tangencia es</p>
+\[ (1,f(1))=(1,4). \]
+<p>Por tanto,</p>
+\[ y-4=6(x-1), \]
+<p>y la ecuación de la tangente es</p>
+\[ \boxed{y=6x-2}. \]
+<h2>Ejercicio 1.b — \(f(x)=2x^2-4x+1\), en \(x=-1\)</h2>
+<p>Derivamos:</p>
+\[ f'(x)=4x-4. \]
+<p>La pendiente en \(x=-1\) es</p>
+\[ f'(-1)=-8. \]
+<p>Además,</p>
+\[ f(-1)=2+4+1=7. \]
+<p>La tangente pasa por \((-1,7)\), por lo que</p>
+\[ y-7=-8(x+1). \]
+<p>Así,</p>
+\[ \boxed{y=-8x-1}. \]
+<h2>Ejercicio 1.c — \(\displaystyle f(x)=x+\frac{3}{x}\), en \(x=3\)</h2>
+<p>Escribimos</p>
+\[ f(x)=x+3x^{-1}. \]
+<p>Entonces,</p>
+\[ f'(x)=1-3x^{-2} =1-\frac{3}{x^2}. \]
+<p>La pendiente es</p>
+\[ f'(3)=1-\frac{3}{9}=\frac{2}{3}. \]
+<p>El punto de tangencia es</p>
+\[ (3,f(3))=(3,4). \]
+<p>Por tanto,</p>
+\[ y-4=\frac{2}{3}(x-3), \]
+<p>es decir,</p>
+\[ \boxed{y=\frac{2}{3}x+2}. \]
+<h2>Ejercicio 1.d — \(\displaystyle f(x)=\frac{x^2+9}{x}\), en \(x=-3\)</h2>
+<p>Primero simplificamos:</p>
+\[ f(x)=x+\frac{9}{x}. \]
+<p>Derivamos:</p>
+\[ f'(x)=1-\frac{9}{x^2}. \]
+<p>En \(x=-3\):</p>
+\[ f'(-3)=1-\frac{9}{9}=0. \]
+<p>Además,</p>
+\[ f(-3)=-3-\frac{9}{3}=-6. \]
+<p>Como la pendiente es \(0\), la tangente es horizontal:</p>
+\[ \boxed{y=-6}. \]
+<h2>Ejercicio 2.a — Tangente horizontal a \(f(x)=x^2+4x+2\)</h2>
+<p>Una tangente horizontal tiene pendiente \(0\). Por tanto, buscamos los valores de \(x\) que cumplen</p>
+\[ f'(x)=0. \]
+<p>Como</p>
+\[ f'(x)=2x+4, \]
+<p>tenemos</p>
+\[ 2x+4=0 \quad\Longrightarrow\quad x=-2. \]
+<p>Calculamos la ordenada:</p>
+\[ f(-2)=4-8+2=-2. \]
+<p>El punto buscado es</p>
+\[ \boxed{(-2,-2)}. \]
+<h2>Ejercicio 2.b — Pendiente \(9\) para \(f(x)=x^3-3x\)</h2>
+<p>Derivamos:</p>
+\[ f'(x)=3x^2-3. \]
+<p>Queremos que la pendiente sea \(9\):</p>
+\[ 3x^2-3=9. \]
+<p>Por tanto,</p>
+\[ 3x^2=12 \quad\Longrightarrow\quad x^2=4, \]
+<p>de donde</p>
+\[ x=2 \qquad\text{o}\qquad x=-2. \]
+<p>Calculamos las correspondientes ordenadas:</p>
+\[ f(2)=8-6=2, \] \[ f(-2)=-8+6=-2. \]
+<p>Los puntos son</p>
+\[ \boxed{(2,2)\quad\text{y}\quad(-2,-2)}. \]
+<h2>Ejercicio 2.c — Pendiente \(10\) para \(f(x)=x^3-2x+1\)</h2>
+<p>Derivamos:</p>
+\[ f'(x)=3x^2-2. \]
+<p>Imponemos que la pendiente sea \(10\):</p>
+\[ 3x^2-2=10. \]
+<p>Entonces,</p>
+\[ 3x^2=12 \quad\Longrightarrow\quad x=\pm2. \]
+<p>Calculamos las ordenadas:</p>
+\[ f(2)=8-4+1=5, \] \[ f(-2)=-8+4+1=-3. \]
+<p>Por tanto, los puntos buscados son</p>
+\[ \boxed{(2,5)\quad\text{y}\quad(-2,-3)}. \]
+<h2>Ejercicio 2.d — Tangente horizontal a \(f(x)=ax^2+bx+c\)</h2>
+<p>Derivamos:</p>
+\[ f'(x)=2ax+b. \]
+<p>Para que la tangente sea horizontal:</p>
+\[ 2ax+b=0. \]
+<p>Como \(a\neq0\),</p>
+\[ x=-\frac{b}{2a}. \]
+<p>Calculamos la ordenada:</p>
+\[ f\left(-\frac{b}{2a}\right) = a\left(-\frac{b}{2a}\right)^2 +b\left(-\frac{b}{2a}\right)+c. \]
+<p>Simplificando:</p>
+\[ f\left(-\frac{b}{2a}\right) = c-\frac{b^2}{4a}. \]
+<p>Por tanto, el punto es</p>
+\[ \boxed{ \left( -\frac{b}{2a}, c-\frac{b^2}{4a} \right) }. \]</div>
+<p><br /></p></div></div>
 </div>
 </div>
 </div>
