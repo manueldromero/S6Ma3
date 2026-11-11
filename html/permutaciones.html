@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mwby1zcy-mntfeo2z2">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Permutaciones | S6 - Matemáticas 3p</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Programación y materiales para la materia S6 - Matemáticas 3p del Syllabus de las Escuelas Europeas. Fecha de primera creación: Julio 2026">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mwby1zcy-mntfeo2z2" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">S6 - Matemáticas 3p</a>
+</li>
+<li> <a href="../html/tema-1---funciones-conceptos-basicos.html" class="daddy">Tema 1 - Funciones, conceptos básicos</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-definicion-y-propiedades.html" class="daddy">Funciones: definición y propiedades</a>
+<ul class="other-section">
+<li> <a href="../html/concepto-de-funcion.html" class="no-ch">Concepto de función</a>
+</li>
+<li> <a href="../html/dominio-y-recorrido.html" class="no-ch">Dominio y recorrido</a>
+</li>
+<li> <a href="../html/signos-y-cortes-con-los-ejes.html" class="no-ch">Signos y cortes con los ejes</a>
+</li>
+<li> <a href="../html/monotonia-crecimiento-decrecimiento-extremos.html" class="no-ch">Monotonía: crecimiento, decrecimiento, extremos</a>
+</li>
+<li> <a href="../html/transformacion-de-funciones.html" class="no-ch">Transformación de funciones</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/familias-de-funciones.html" class="daddy">Familias de funciones</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-lineales.html" class="no-ch">Funciones lineales</a>
+</li>
+<li> <a href="../html/funciones-cuadraticas.html" class="no-ch">Funciones cuadráticas</a>
+</li>
+<li> <a href="../html/funciones-exponenciales.html" class="no-ch">Funciones exponenciales</a>
+</li>
+<li> <a href="../html/modelo-de-proporcionalidad-inversa.html" class="no-ch">Modelo de proporcionalidad inversa</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-2---la-tasa-de-cambio-derivada.html" class="daddy">Tema 2 - La tasa de cambio: derivada</a>
+<ul class="other-section">
+<li> <a href="../html/tasa-de-variacion-media.html" class="no-ch">Tasa de variación media</a>
+</li>
+<li> <a href="../html/el-limite-tasa-de-variacion-instantanea.html" class="no-ch">El límite: Tasa de Variación Instantánea</a>
+</li>
+<li> <a href="../html/las-reglas-de-derivacion-derivando-polinomios.html" class="no-ch">Las reglas de derivación. Derivando polinomios</a>
+</li>
+<li> <a href="../html/aplicaciones-de-la-derivada.html" class="no-ch">Aplicaciones de la derivada</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/tema-3---combinatoria-y-probabilidad.html" class="daddy">Tema 3 - Combinatoria y probabilidad</a>
+<ul class="other-section">
+<li> <a href="../html/principios-de-la-suma-y-del-producto.html" class="no-ch">Principios de la suma y del producto</a>
+</li>
+<li class="active"> <a href="../html/permutaciones.html" class="active no-ch">Permutaciones</a>
+</li>
+<li> <a href="../html/variaciones.html" class="no-ch">Variaciones</a>
+</li>
+<li> <a href="../html/combinaciones.html" class="no-ch">Combinaciones</a>
+</li>
+<li> <a href="../html/recapitulando.html" class="no-ch">Recapitulando</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-4---modelo-periodico.html" class="no-ch">Tema 4 - Modelo Periódico</a>
+</li>
+<li> <a href="../html/tema-5---distribuciones-discretas-bernoulli.html" class="no-ch">Tema 5 - Distribuciones discretas. Bernoulli</a>
+</li>
+<li> <a href="../html/pruebas-realizadas.html" class="no-ch">Pruebas realizadas</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul>
+</nav><main id="page-mwby1zcy-mntfeo2z2" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">S6 - Matemáticas 3p</p></div>
+<div class="page-header"><h1 class="page-title">Permutaciones</h1></div>
+</header><div id="page-content-page-mwby1zcy-mntfeo2z2" class="page-content">
+<article id="block-mwby1zd4-p9vql1wqn" class="box no-header">
+<header class="box-head no-icon">
+</header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-kkec47a06" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-kkec47a06&quot;}">
+<p>Permutar significa reordenar. En este bloque nos enfrentamos a situaciones en las que reordenamos una serie de elementos. Esto es relativamente habitual en la práctica.</p>
+<p>
+<script type="text/javascript"> 
+  $(window).load(function(){
+    $.each([1,2,3,4,5,6,7], function(index , value ) {
+ $("p.toggle-idevice a").eq(value).click();
+    })
+  });
+</script>
+</p>
+</div>
+</div>
+</article><article id="block-mwby1zd4-1ksuu0fv1" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Personas en fila</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-bighgv39a" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-bighgv39a&quot;}">
+<div class="exe-text-activity"><p>Cinco personas distintas se colocan en una fila.</p>
+<ul>
+<li>¿De cuántas formas diferentes pueden colocarse?</li>
+<li>¿De cuántas formas pueden colocarse si dos personas concretas deben estar juntas?</li>
+</ul></div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-aq0ezcvom" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Libros en una estantería</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-9b0ofy0xj" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-9b0ofy0xj&quot;}">
+<div class="exe-text-activity"><p>Se colocan seis libros distintos en una estantería, uno al lado del otro.</p>
+<ul>
+<li>¿De cuántas formas diferentes se pueden ordenar los seis libros?</li>
+<li>¿De cuántas formas pueden ordenarse si dos libros concretos deben ocupar posiciones consecutivas?</li>
+</ul></div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-r4773nkat" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Factorial</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-b9uicogkn" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-b9uicogkn&quot;}">
+<p style="text-align: justify;">Para poder contar de cuántas formas se pueden ordenar objetos, necesitamos introducir el <strong>factorial</strong>.</p>
+<div style="border: 2px solid red; padding: 15px; border-radius: 10px; background-color: #fff8f8;">
+<h3 style="color: red; text-align: center; font-weight: bold;">Factorial de un número</h3>
+<p style="text-align: justify;">El <strong>factorial</strong> de un número natural \( n \), que se escribe \( n! \), se define como el producto de todos los números naturales desde \( 1 \) hasta \( n \):</p>
+<p style="text-align: center; font-size: 1.1em;">\( n! = 1 \cdot 2 \cdot 3 \cdots n \)</p>
+<p style="text-align: justify;">Por ejemplo:</p>
+<p style="text-align: justify; margin-left: 20px;">– \( 3! = 1 \cdot 2 \cdot 3 = 6 \)<br />– \( 5! = 1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 = 120 \)</p>
+<p style="text-align: justify;">Por convenio, se define también:</p>
+<p style="text-align: center; font-size: 1.1em;">\( 0! = 1 \)</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-mdrgj2m1n" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Permutaciones sin repetición</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-hgjj0837b" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-hgjj0837b&quot;}">
+<p style="text-align: justify;">En los problemas de <strong>Personas en fila</strong> y <strong>Libros en una estantería</strong> hemos contado de cuántas formas se pueden ordenar objetos distintos.</p>
+<div style="border: 2px solid red; padding: 15px; border-radius: 10px; background-color: #fff8f8;">
+<h3 style="color: red; text-align: center; font-weight: bold;">Permutaciones sin repetición</h3>
+<p style="text-align: justify;">Se llaman <strong>permutaciones sin repetición</strong> de \( n \) elementos distintos a todas las formas posibles de ordenarlos, de manera que:</p>
+<p style="text-align: justify; margin-left: 20px;">– se utilizan todos los elementos,<br />– no se repite ninguno,<br />– el orden importa (si cambiamos el orden, obtenemos un elemento distinto a considerar en nuestro recuento).</p>
+<p style="text-align: justify;">El número de permutaciones sin repetición de \( n \) elementos es:</p>
+<p style="text-align: center; font-size: 1.1em;">\( P_n = n! \)</p>
+<p style="text-align: justify;">Es decir, hay \( n! \) formas distintas de ordenar \( n \) objetos diferentes.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-9fq292joa" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Palabras</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-01hvoee76" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-01hvoee76&quot;}">
+<div class="exe-text-activity"><p><strong>Ordenando letras.</strong><br />Considera la palabra <em>MIRLO</em>.</p>
+<ul>
+<li>¿Cuántas palabras distintas se pueden formar permutando todas sus letras?</li>
+<li>¿Cuántas de ellas empiezan por la letra M?</li>
+</ul>
+<p>Considera ahora la palabra <em>MATEMÁTICAS</em>.</p>
+<ul>
+<li>¿Cuántas palabras distintas se pueden formar permutando todas sus letras?</li>
+<li>¿Cuántas de ellas empiezan por la letra M?</li>
+</ul></div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-dzp61uo2w" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_coproducciontxt.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">El sol y la luna</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-7v6f11u69" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-7v6f11u69&quot;}">
+<div class="exe-text-activity"><p>El solitario <em>Sol y Luna</em> consta de un tablero con nueve casillas y ocho fichas, cuatro de un color y cuatro de otro (generalmente, blanco y negro, que representan el día y la noche, de ahí el nombre del juego). El objetivo del juego consiste en llevar las fichas de la posición inicial a la final, mediante movimientos <em>legales</em>:</p>
+<p><img src="../content/resources/img0.37.png" width="928" height="121" alt="Posiciones inicial y final del sol y la luna" /></p>
+<p>Un movimiento <em>legal</em> es aquel que respeta las reglas del juego. Estas son:</p>
+<ol>
+<li>Las fichas negras se desplazan siempre de izquierda a derecha; las blancas, en sentido opuesto.</li>
+<li>Una ficha puede moverse si la casilla contigua (en el sentido de desplazamiento que le es permitido) está vacía; o bien, puede saltar (en el sentido de desplazamiento que le es permitido) por encima de una ficha del otro color, siempre que el cuadrado que haya a continuación esté libre (de igual forma que en el juego de las damas, pero sin “comer” ninguna ficha).</li>
+<li>En cada casilla, hay como máximo una ficha.</li>
+</ol>
+<p>¿De cuántas formas se pueden disponer las fichas en el tablero si son colocadas al azar?</p>
+<p>Preguntas de ampliación (conviene que estudies primero la situación con dos soles y dos lunas):</p>
+<ul>
+<li>¿cuántas de estas formas se pueden alcanzar mediante movimientos legales?</li>
+<li>¿cuántos movimientos son necesarios para completar el juego?</li>
+</ul></div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-fgrzd6o22" class="box minimized">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Permutaciones con repetición</h1>
+<button class="box-toggle box-toggle-off" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-q9hj8nzji" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-q9hj8nzji&quot;}">
+<p style="text-align: justify;">En los problemas de <strong>Palabras</strong> hemos visto que, cuando algunas letras se repiten, no todas las ordenaciones son distintas.</p>
+<div style="border: 2px solid red; padding: 15px; border-radius: 10px; background-color: #fff8f8;">
+<h3 style="color: red; text-align: center; font-weight: bold;">Permutaciones con repetición</h3>
+<p style="text-align: justify;">Se llaman <strong>permutaciones con repetición</strong> a las ordenaciones de \( n \) elementos cuando algunos de ellos se repiten.</p>
+<p style="text-align: justify;">Si tenemos:</p>
+<p style="text-align: justify; margin-left: 20px;">– \( n \) elementos en total,<br />– \( n_1 \) elementos iguales de un tipo,<br />– \( n_2 \) elementos iguales de otro tipo,<br />– …,</p>
+<p style="text-align: justify;">el número de permutaciones distintas es:</p>
+<p style="text-align: center; font-size: 1.1em;">\( \displaystyle \frac{n!}{n_1!\,n_2!\,\cdots} \)</p>
+<p style="text-align: justify;">Esta fórmula evita contar varias veces las ordenaciones que solo se diferencian en el intercambio de elementos iguales.</p>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/principios-de-la-suma-y-del-producto.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/variaciones.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

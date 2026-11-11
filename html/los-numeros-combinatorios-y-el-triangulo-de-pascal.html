@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mwby1zcy-o6if9psiu">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Los números combinatorios y el triángulo de pascal | S6 - Matemáticas 3p</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Programación y materiales para la materia S6 - Matemáticas 3p del Syllabus de las Escuelas Europeas. Fecha de primera creación: Julio 2026">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../libs/exe_effects/exe_effects.js"> </script>
+<link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mwby1zcy-o6if9psiu" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">S6 - Matemáticas 3p</a>
+</li>
+<li> <a href="../html/tema-1---funciones-conceptos-basicos.html" class="daddy">Tema 1 - Funciones, conceptos básicos</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-definicion-y-propiedades.html" class="daddy">Funciones: definición y propiedades</a>
+<ul class="other-section">
+<li> <a href="../html/concepto-de-funcion.html" class="no-ch">Concepto de función</a>
+</li>
+<li> <a href="../html/dominio-y-recorrido.html" class="no-ch">Dominio y recorrido</a>
+</li>
+<li> <a href="../html/signos-y-cortes-con-los-ejes.html" class="no-ch">Signos y cortes con los ejes</a>
+</li>
+<li> <a href="../html/monotonia-crecimiento-decrecimiento-extremos.html" class="no-ch">Monotonía: crecimiento, decrecimiento, extremos</a>
+</li>
+<li> <a href="../html/transformacion-de-funciones.html" class="no-ch">Transformación de funciones</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/familias-de-funciones.html" class="daddy">Familias de funciones</a>
+<ul class="other-section">
+<li> <a href="../html/funciones-lineales.html" class="no-ch">Funciones lineales</a>
+</li>
+<li> <a href="../html/funciones-cuadraticas.html" class="no-ch">Funciones cuadráticas</a>
+</li>
+<li> <a href="../html/funciones-exponenciales.html" class="no-ch">Funciones exponenciales</a>
+</li>
+<li> <a href="../html/modelo-de-proporcionalidad-inversa.html" class="no-ch">Modelo de proporcionalidad inversa</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-2---la-tasa-de-cambio-derivada.html" class="daddy">Tema 2 - La tasa de cambio: derivada</a>
+<ul class="other-section">
+<li> <a href="../html/tasa-de-variacion-media.html" class="no-ch">Tasa de variación media</a>
+</li>
+<li> <a href="../html/el-limite-tasa-de-variacion-instantanea.html" class="no-ch">El límite: Tasa de Variación Instantánea</a>
+</li>
+<li> <a href="../html/las-reglas-de-derivacion-derivando-polinomios.html" class="no-ch">Las reglas de derivación. Derivando polinomios</a>
+</li>
+<li> <a href="../html/aplicaciones-de-la-derivada.html" class="no-ch">Aplicaciones de la derivada</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/tema-3---combinatoria-y-probabilidad.html" class="daddy">Tema 3 - Combinatoria y probabilidad</a>
+<ul class="other-section">
+<li> <a href="../html/principios-de-la-suma-y-del-producto.html" class="no-ch">Principios de la suma y del producto</a>
+</li>
+<li> <a href="../html/permutaciones.html" class="no-ch">Permutaciones</a>
+</li>
+<li> <a href="../html/variaciones.html" class="no-ch">Variaciones</a>
+</li>
+<li> <a href="../html/combinaciones.html" class="no-ch">Combinaciones</a>
+</li>
+<li> <a href="../html/recapitulando.html" class="no-ch">Recapitulando</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/tema-4---modelo-periodico.html" class="no-ch">Tema 4 - Modelo Periódico</a>
+</li>
+<li> <a href="../html/tema-5---distribuciones-discretas-bernoulli.html" class="no-ch">Tema 5 - Distribuciones discretas. Bernoulli</a>
+</li>
+<li> <a href="../html/pruebas-realizadas.html" class="no-ch">Pruebas realizadas</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul>
+</nav><main id="page-mwby1zcy-o6if9psiu" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">S6 - Matemáticas 3p</p></div>
+<div class="page-header"><h1 class="page-title">Los números combinatorios y el triángulo de pascal</h1></div>
+</header><div id="page-content-page-mwby1zcy-o6if9psiu" class="page-content">
+<article id="block-mwby1zd4-dd4reoiym" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-ghj4i9q6g" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-ghj4i9q6g&quot;}">
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif" width="261" height="240" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+<td style="width: 50%;"><img src="../content/resources/triangulo.png" alt="Triángulo de Pascal" title="Triángulo de Pascal" width="250" height="183" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+</tr>
+</tbody>
+</table>
+<p>El triángulo de Pascal tiene una relación estrechísima con los números combinatorios como vamos a ver en esta sección. Ello es consecuencia de las propiedades de los números combiantorios.</p>
+</div>
+</div>
+</article><article id="block-mwby1zd4-fram8n8hr" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">El Binomio de Newton</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-clncmp79c" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-clncmp79c&quot;}">
+<p>
+<script type="text/javascript"> 
+  $(window).load(function(){
+    $.each([1,2,3,4,5,6,7], function(index , value ) {
+ $("p.toggle-idevice a").eq(value).click();
+    })
+  });
+</script>
+</p>
+<div style="box-sizing: border-box; background: #f9f9f9; border: 3px solid #ee1111; border-radius: 6px; padding: 12px 14px; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: #111111; max-width: 820px; margin: 0px; font-size: 16px; text-align: center;"><strong>Binomio de Newton</strong>
+<p>Para todo entero natural \( n \ge 0 \), se cumple:</p>
+<p style="text-align: center;">\[ (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{\,n-k} b^{\,k} \]</p>
+</div>
+<p>Consideramos el producto de \( n \) factores iguales:</p>
+<p style="text-align: center;">\[ (a+b)(a+b)\cdots(a+b) \]</p>
+<p>Cada término del desarrollo se obtiene eligiendo, en cada factor, la letra \( a \) o la letra \( b \). El término \( a^{n-k}b^k \) aparece cuando se eligen exactamente \( k \) veces la letra \( b \) y \( n-k \) veces la letra \( a \).</p>
+<p><strong>¿De cuántas formas pueden elegirse esos \( k \) factores?</strong></p>
+<div class="exe-fx exe-accordion">
+<h2>Solución combinatoria</h2>
+<p>Elegir en qué \( k \) de los \( n \) factores aparece la letra \( b \) equivale a elegir un subconjunto de \( k \) elementos entre \( n \).</p>
+<p style="text-align: center;">\[ \binom{n}{k} \]</p>
+<p>Cada una de estas elecciones genera exactamente el término \( a^{n-k}b^k \), por lo que su coeficiente es \( \binom{n}{k} \).</p>
+<p>Sumando todos los términos posibles, se obtiene:</p>
+<p style="text-align: center;">\[ (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{\,n-k} b^{\,k} \]</p>
+<h2>Solución computacional por inducción</h2>
+<p><strong>Caso base.</strong> Para \( n = 0 \):</p>
+<p style="text-align: center;">\[ (a+b)^0 = 1 = \binom{0}{0}a^0b^0 \]</p>
+<p>La fórmula es cierta para el caso base.</p>
+<p><strong>Hipótesis de inducción.</strong> Suponemos que para cierto \( n \ge 0 \) se cumple:</p>
+<p style="text-align: center;">\[ (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{\,n-k} b^{\,k} \]</p>
+<p><strong>Paso inductivo.</strong> Multiplicamos ambos lados por \( (a+b) \):</p>
+<p style="text-align: center;">\[ (a+b)^{n+1} = (a+b)\sum_{k=0}^{n} \binom{n}{k} a^{\,n-k} b^{\,k} \]</p>
+<p>Reagrupando términos y usando la identidad de Pascal:</p>
+<p style="text-align: center;">\[ \binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k} \] \]</p>
+<p>se obtiene:</p>
+<p style="text-align: center;">\[ (a+b)^{n+1} = \sum_{k=0}^{n+1} \binom{n+1}{k} a^{\,n+1-k} b^{\,k} \]</p>
+<p>Por el principio de inducción matemática, la fórmula es válida para todo \( n \in \mathbb{N} \).</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-w79ph6dkz" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Suma de los coeficientes binomiales</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-m03y5us2f" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-m03y5us2f&quot;}">
+<div style="box-sizing: border-box; background: #f9f9f9; border: 3px solid #ee1111; border-radius: 6px; padding: 12px 14px; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: #111111; max-width: 820px; margin: 0px; font-size: 16px; text-align: center;"><strong>Suma de los coeficientes binomiales</strong>
+<p>Para todo entero natural \( n \ge 0 \), se cumple:</p>
+<p style="text-align: center;">\[\binom{n}{0} + \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n-1} + \binom{n}{n}= \sum_{k=0}^{n} \binom{n}{k} = 2^n \]</p>
+</div>
+<p>Sea un conjunto formado por \( n \) elementos distintos. Queremos contar de cuántas formas pueden elegirse subconjuntos de dicho conjunto, sin imponer ninguna restricción sobre el número de elementos elegidos.</p>
+<p>Los subconjuntos pueden tener \( 0,1,2,\dots,n \) elementos. Para cada valor de \( k \), el número de subconjuntos con exactamente \( k \) elementos viene dado por el número combinatorio \( \binom{n}{k} \).</p>
+<p><strong>¿Cuántos subconjuntos tiene en total un conjunto con \( n \) elementos?</strong></p>
+<div class="exe-fx exe-accordion">
+<h2>Solución combinatoria</h2>
+<p>Consideramos un conjunto con \( n \) elementos distintos. Para formar un subconjunto, cada uno de esos elementos puede tomarse o no tomarse de manera independiente.</p>
+<p>Para cada elemento hay exactamente dos posibilidades: o bien se incluye en el subconjunto, o bien se deja fuera.</p>
+<p>Al tomar decisiones independientes para los \( n \) elementos, el número total de subconjuntos que pueden formarse es el número de formas distintas de realizar \( n \) elecciones con dos opciones en cada una.</p>
+<p>Por tanto, el número total de subconjuntos posibles es:</p>
+<p style="text-align: center;">\[ 2^n \]</p>
+<h2>Solución computacional</h2>
+<p>Partimos del desarrollo del binomio de Newton:</p>
+<p style="text-align: center;">\[ (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{\,n-k} b^{\,k} \]</p>
+<p>Tomamos \( a = 1 \) y \( b = 1 \). Entonces:</p>
+<p style="text-align: center;">\[ (1+1)^n = \sum_{k=0}^{n} \binom{n}{k} \]</p>
+<p>Como \( (1+1)^n = 2^n \), se obtiene directamente:</p>
+<p style="text-align: center;">\[ \sum_{k=0}^{n} \binom{n}{k} = 2^n \]</p>
+<p>La identidad queda demostrada mediante un cálculo directo apoyado en la expresión factorial de los coeficientes binomiales.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-ida6b9jst" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Identidad de Pascal</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-bmwb2u7ry" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-bmwb2u7ry&quot;}">
+<div style="box-sizing: border-box; background: #f9f9f9; border: 3px solid #ee1111; border-radius: 6px; padding: 12px 14px; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: #111111; max-width: 820px; margin: 0px; font-size: 16px; text-align: center;"><strong>Identidad de Pascal</strong>
+<p>Para todo entero natural \( n \ge 1 \) y todo \( k \) con \( 1 \le k \le n \), se cumple:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1} \]</p>
+</div>
+<p>Consideramos un conjunto con \( n \) elementos distintos y fijamos uno de ellos, el elemento \(\star\).</p>
+<p>Queremos contar de cuántas formas pueden elegirse subconjuntos de tamaño \( k \) a partir de ese conjunto.</p>
+<p><strong>¿Qué ocurre si distinguimos entre los subconjuntos que contienen al elemento \(\star\) y los que no lo contienen?</strong></p>
+<div class="exe-fx exe-accordion">
+<h2>Solución combinatoria</h2>
+<p>Todo subconjunto de tamaño \( k \) se encuentra en una de las dos situaciones siguientes:</p>
+<ul>
+<li>no contiene al elemento distinguido,</li>
+<li>sí contiene al elemento distinguido.</li>
+</ul>
+<p>En el primer caso, el subconjunto se forma eligiendo los \( k \) elementos entre los \( n-1 \) restantes.</p>
+<p>En el segundo caso, el elemento distinguido ya está fijado, y los otros \( k-1 \) elementos se eligen entre los \( n-1 \) restantes.</p>
+<p>Como ambas situaciones son incompatibles y cubren todos los casos posibles, el número total de subconjuntos de tamaño \( k \) es la suma de ambos recuentos, lo que justifica la identidad:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1} \]</p>
+<h2>Solución computacional</h2>
+<p>Partimos de la expresión factorial de los números combinatorios:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \frac{n!}{k!(n-k)!} \]</p>
+<p>Calculamos por separado:</p>
+<p style="text-align: center;">\[ \binom{n-1}{k} = \frac{(n-1)!}{k!(n-1-k)!}, \qquad \binom{n-1}{k-1} = \frac{(n-1)!}{(k-1)!(n-k)!} \]</p>
+<p>Sacando factor común \( \dfrac{(n-1)!}{k!(n-k)!} \), se obtiene:</p>
+<p style="text-align: center;">\[ \binom{n-1}{k} + \binom{n-1}{k-1} = \frac{(n-1)!}{k!(n-k)!}\,(n-k+k) \]</p>
+<p>Como \( n-k+k = n \), resulta:</p>
+<p style="text-align: center;">\[ \binom{n-1}{k} + \binom{n-1}{k-1} = \frac{n!}{k!(n-k)!} = \binom{n}{k} \]</p>
+<p>Queda así demostrada la identidad de Pascal mediante un cálculo directo con factoriales.</p>
+</div>
+<p><img src="../content/resources/tirangulo_de_tartaglia_pascal_numeros_combinatorios.jpg" alt="Triángulo de Pascal con números combinatorios" title="Triángulo de Pascal" width="680" height="258" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+</div>
+</div>
+</article><article id="block-mwby1zd4-amnjjrste" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_rep_destacado.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Simetría de los coeficientes binomiales</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-4aa19m0qs" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-4aa19m0qs&quot;}">
+<div style="box-sizing: border-box; background: #f9f9f9; border: 3px solid #ee1111; border-radius: 6px; padding: 12px 14px; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: #111111; max-width: 820px; margin: 0px; font-size: 16px; text-align: center;"><strong>Simetría de los coeficientes binomiales</strong>
+<p>Para todo entero natural \( n \ge 0 \) y todo \( k \) con \( 0 \le k \le n \), se cumple:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \binom{n}{n-k} \]</p>
+</div>
+<p>Consideramos un conjunto con \( n \) elementos distintos y fijamos un número \( k \). Queremos contar de cuántas formas pueden elegirse subconjuntos con exactamente \( k \) elementos.</p>
+<p>A cada elección de \( k \) elementos le corresponde de forma natural una elección complementaria: los \( n-k \) elementos que no han sido elegidos.</p>
+<p><strong>¿Existe alguna diferencia esencial entre contar los elementos elegidos y contar los no elegidos?</strong></p>
+<div class="exe-fx exe-accordion">
+<h2>Solución combinatoria</h2>
+<p>Elegir un subconjunto con \( k \) elementos determina de manera única el subconjunto complementario formado por los \( n-k \) elementos restantes.</p>
+<p>Este proceso es reversible: a cada subconjunto de \( n-k \) elementos le corresponde exactamente un subconjunto de \( k \) elementos.</p>
+<p>Por tanto, existe una correspondencia biunívoca entre:</p>
+<ul>
+<li>los subconjuntos de tamaño \( k \),</li>
+<li>los subconjuntos de tamaño \( n-k \).</li>
+</ul>
+<p>Al existir una correspondencia uno a uno entre ambos conjuntos, el número de subconjuntos de cada tipo es el mismo, lo que justifica que:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \binom{n}{n-k} \]</p>
+<h2>Solución computacional</h2>
+<p>Partimos de la definición factorial del número combinatorio:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \frac{n!}{k!(n-k)!} \]</p>
+<p>Si intercambiamos \( k \) por \( n-k \), obtenemos:</p>
+<p style="text-align: center;">\[ \binom{n}{n-k} = \frac{n!}{(n-k)!k!} \]</p>
+<p>Como el producto factorial del denominador es el mismo en ambos casos, las dos expresiones coinciden exactamente.</p>
+<p>Por tanto, se verifica que:</p>
+<p style="text-align: center;">\[ \binom{n}{k} = \binom{n}{n-k} \]</p>
+<p>La simetría queda demostrada mediante un cálculo directo con factoriales.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-igaq0jamq" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_eng_aprenderaprender.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ampliación: suma alternada</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-mi2q30gk0" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-mi2q30gk0&quot;}">
+<div style="box-sizing: border-box; background: #f9f9f9; border: 3px solid #ee1111; border-radius: 6px; padding: 12px 14px; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: #111111; max-width: 820px; margin: 0px; font-size: 16px; text-align: center;"><strong>Suma ponderada de los coeficientes binomiales</strong>
+<p>Para todo entero natural \( n \ge 1 \), se cumple:</p>
+<p style="text-align: center;">\[ 0\cdot\binom{n}{0} + 1\cdot\binom{n}{1} + 2\cdot\binom{n}{2} + \cdots + (n-1)\cdot\binom{n}{n-1} + n\cdot\binom{n}{n} = n\,2^{\,n-1} \]</p>
+</div>
+<p>Consideramos todos los subconjuntos de un conjunto con \( n \) elementos. A cada subconjunto le asignamos un peso igual al número de elementos que contiene.</p>
+<p>La suma ponderada consiste en sumar los tamaños de todos los subconjuntos posibles.</p>
+<p><strong>¿Cuál es el valor total obtenido al sumar los tamaños de todos los subconjuntos?</strong></p>
+<div class="exe-fx exe-accordion">
+<h2>Solución combinatoria</h2>
+<p>Vamos a contar cuántas veces aparece cada elemento del conjunto al recorrer todos los subconjuntos posibles.</p>
+<p>Fijamos uno de los elementos. Ese elemento puede estar o no estar en un subconjunto.</p>
+<p>Si está presente, los otros \( n-1 \) elementos pueden elegirse libremente, cada uno incluido o no incluido.</p>
+<p>Por tanto, el elemento fijo aparece exactamente en:</p>
+<p style="text-align: center;">\[ 2^{\,n-1} \]</p>
+<p>subconjuntos distintos.</p>
+<p>Como hay \( n \) elementos y todos juegan el mismo papel, el número total de apariciones de elementos en todos los subconjuntos es:</p>
+<p style="text-align: center;">\[ n\,2^{\,n-1} \]</p>
+<p>Esta cantidad coincide con la suma ponderada \( 0\cdot\binom{n}{0} + 1\cdot\binom{n}{1} + \cdots + n\cdot\binom{n}{n} \), ya que cada subconjunto aporta tantas unidades como elementos contiene.</p>
+<h2>Solución computacional</h2>
+<p>Pista: partimos del binomio de Newton:</p>
+<p style="text-align: center;">\[ (a+b)^n = \binom{n}{0}a^n + \binom{n}{1}a^{n-1}b + \cdots + \binom{n}{n}b^n \]</p>
+<p>Deriva esa expresión respecto de \(b\) y luego concluye haciendo \(a=b=1\).</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-5iixvf40q" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_eng_aprenderaprender.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ampliación: el coeficiente central</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-ev7s3bael" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-ev7s3bael&quot;}">
+<div style="box-sizing: border-box; background: #f9f9f9; border: 3px solid #ee1111; border-radius: 6px; padding: 12px 14px; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: #111111; max-width: 820px; margin: 0px; font-size: 16px; text-align: center;"><strong>Coeficiente central</strong>
+<p>Para todo entero natural \( n \ge 1 \), se cumple:</p>
+<p style="text-align: center;">\[ \binom{2n}{n} \text{ es el mayor coeficiente binomial de la fila } 2n. \]</p>
+</div>
+<p>Consideramos todos los subconjuntos de tamaño \( n \) de un conjunto con \( 2n \) elementos. Este número aparece de forma destacada en la fila \( 2n \) del triángulo de Pascal.</p>
+<p>La propiedad afirma que este coeficiente ocupa una posición central y que ningún otro coeficiente de la misma fila lo supera.</p>
+<p><strong>¿Por qué las elecciones “equilibradas” son las más numerosas?</strong></p>
+<div class="exe-fx exe-accordion">
+<h2>Solución combinatoria</h2>
+<p>Elegir \( n \) elementos entre \( 2n \) equivale a dividir el conjunto en dos partes del mismo tamaño: los elegidos y los no elegidos.</p>
+<p>Para valores distintos de \( n \), las elecciones están descompensadas: o bien se eligen muchos elementos, o bien muy pocos.</p>
+<p>Cuando se eligen exactamente \( n \) elementos, la elección es lo más equilibrada posible entre los elementos tomados y los no tomados.</p>
+<p>Este equilibrio maximiza el número de posibilidades, ya que cualquier desviación reduce las opciones disponibles.</p>
+<p>Por este motivo, el número de subconjuntos de tamaño \( n \) es mayor que el de subconjuntos de cualquier otro tamaño, lo que justifica que:</p>
+<p style="text-align: center;">\[ \binom{2n}{n} \]</p>
+<p>sea el coeficiente central y el mayor de la fila correspondiente.</p>
+<h2>Solución computacional</h2>
+<p>Pistas: demuestra que el cociente entre dos coeficientes consecutivos de la fila \( 2n \) vale:</p>
+<p style="text-align: center;">\[ \frac{\binom{2n}{k+1}}{\binom{2n}{k}} = \frac{2n-k}{k+1} \]</p>
+<p>Luego estudia cuándo este número vale 1, menos de 1 y más de uno.</p>
+<p>Concluye como los coeficientes aumentan hasta \( k = n \) y decrecen a partir de ese valor.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mwby1zd4-ny0ookcaa" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/udl_exp_escribe.svg" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A practicar</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mwby1zd4-0e3etkm5a" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mwby1zd4-0e3etkm5a&quot;}">
+<div class="exe-text-activity"><ol>
+<li><strong>Simplificación de expresiones con factoriales.</strong>
+<div style="column-count: 2; column-gap: 40px; margin-top: 8px;">
+<p>a) \( \dfrac{6!}{3!} \)</p>
+<p>b) \( \dfrac{7!}{8!} \)</p>
+<p>c) \( \dfrac{10!}{6!\cdot5!} \)</p>
+<p>d) \( \dfrac{9!\cdot4!}{12!} \)</p>
+<p>e) \( \dfrac{8!\cdot3!}{7!\cdot4!} \)</p>
+<p>f) \( \dfrac{7!\cdot5!\cdot9!}{3!\cdot10!\cdot8!} \)</p>
+</div>
+</li>
+<li><strong>¿Cuántos ceros?</strong><br />Determinar cuántos ceros tiene al final el factorial del número \(100\).</li>
+<li><strong>Cálculo de números combinatorios.</strong>
+<div style="column-count: 2; column-gap: 40px; margin-top: 8px;">
+<p>a) \( \binom{5}{2} \)</p>
+<p>b) \( \binom{9}{4} \)</p>
+<p>c) \( \binom{7}{3} \)</p>
+<p>d) \( \binom{10}{5} \)</p>
+<p>e) \( \binom{13}{7} \)</p>
+<p>f) \( \binom{15}{10} \)</p>
+</div>
+</li>
+<li><strong>Propiedades de los números combinatorios.</strong>
+<div style="column-count: 2; column-gap: 40px; margin-top: 8px;">
+<p>a) \( \binom{8}{0} \)</p>
+<p>b) \( \binom{11}{1} \)</p>
+<p>c) \( \binom{17}{16} \)</p>
+<p>d) \( \binom{20}{20} \)</p>
+</div>
+</li>
+<li><strong>Determinación del valor de \(x\).</strong>
+<div style="column-count: 2; column-gap: 40px; margin-top: 8px;">
+<p>a) \( \binom{12}{4} = \binom{12}{x} \)</p>
+<p>b) \( \binom{16}{x} = \binom{16}{9} \)</p>
+</div>
+</li>
+<li><strong>Suma de números combinatorios.</strong>
+<div style="column-count: 2; column-gap: 40px; margin-top: 8px;">
+<p>a) \( \binom{7}{3} + \binom{7}{4} \)</p>
+<p>b) \( \binom{10}{7} + \binom{10}{8} \)</p>
+<p>c) \( \binom{14}{10} + \binom{14}{11} \)</p>
+</div>
+</li>
+</ol></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/combinaciones.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/recapitulando.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
